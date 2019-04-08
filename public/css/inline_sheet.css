@@ -1,0 +1,87 @@
+html {
+ overflow: hidden;
+}
+body {
+ font: 12px Roboto, Arial, sans-serif;
+ background-color: #000;
+ color: #fff;
+ height: 100%;
+ width: 100%;
+ overflow: hidden;
+ position: absolute;
+ margin: 0;
+ padding: 0;
+}
+#player {
+ width: 100%;
+ height: 100%;
+}
+h1 {
+ text-align: center;
+ color: #fff;
+}
+.hid {
+ display: none;
+}
+h3 {
+ margin-top: 6px;
+ margin-bottom: 3px;
+}
+.player-unavailable {
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ padding: 25px;
+ font-size: 13px;
+ background: url(/img/meh7.png) 50% 65% no-repeat;
+}
+.player-unavailable .message {
+ text-align: left;
+ margin: 0 -5px 15px;
+ padding: 0 5px 14px;
+ border-bottom: 1px solid #888;
+ font-size: 19px;
+ font-weight: normal;
+}
+.player-unavailable a {
+ color: #167ac6;
+ text-decoration: none;
+}
+.yt-embed-thumbnail {
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 100%;
+}
+.ytp-lightweight {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+.exp-invert-logo #header:before,
+.exp-invert-logo .ypc-join-family-header .logo,
+.exp-invert-logo #footer-logo .footer-logo-icon,
+.exp-invert-logo #yt-masthead #logo-container .logo,
+.exp-invert-logo #masthead #logo-container,
+.exp-invert-logo .admin-masthead-logo a,
+.exp-invert-logo #yt-sidebar-styleguide-logo #logo {
+ background: no-repeat url(/yts/img/ringo/hitchhiker/logo_small_2x-vfl4_cFqn.png);
+ background-size: 100px 30px;
+}
+.exp-invert-logo #yt-masthead #logo-container .logo-red {
+ background: no-repeat url(/yts/img/ringo/hitchhiker/logo_youtube_red_2x-vflOSHA_n.png);
+ background-size: 132px 30px;
+}
+@media only screen and (min-width: 0px) and (max-width: 498px), only screen and (min-width: 499px) and (max-width: 704px) {
+ .exp-invert-logo.exp-responsive #yt-masthead #logo-container {
+  background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo_2x-vflXx5Pg3.png);
+  background-size: 40px 28px;
+ }
+}
+.guide-sort-container {
+ display: none
+}

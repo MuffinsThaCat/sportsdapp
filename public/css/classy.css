@@ -1,0 +1,6 @@
+.stadium-area {
+    height: 250px;
+    background-size: cover;
+    background-image: url('/Spdapp/images/stadium.png');
+    background-position: bottom center
+}
