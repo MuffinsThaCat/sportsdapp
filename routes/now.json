@@ -1,0 +1,76 @@
+{
+    "version": 2,
+    "builds": [{
+        "src": "routes/index.js",
+        "use": "@now/node"
+    }],
+    "routes": [{
+            "src": "/advisors"
+        },
+        {
+            "src": "/blockchain-and-iot"
+
+        },
+        {
+            "src": "/blockchain-rewards"
+
+        },
+        {
+            "src": "/company"
+
+        },
+        {
+            "src": "/digital-id"
+
+        },
+        {
+            "src": "/fan-engagement"
+
+        },
+        {
+            "src": "/games"
+
+        },
+        {
+            "src": "/frictionless-payment"
+
+        },
+        {
+            "src": "/interorganization-data-management"
+
+        },
+        {
+            "src": "/join-the-team"
+
+        },
+        {
+            "src": "/loyalty-and-rewards"
+
+        },
+        {
+            "src": "/insights"
+
+        },
+        {
+            "src": "/insights"
+
+        },
+        {
+            "src": "/media-center"
+
+        },
+        {
+            "src": "/overview"
+
+        },
+        {
+            "src": "/road-map"
+
+        },
+        {
+            "src": "/smart-ticketing"
+
+        }
+    ]
+
+}
