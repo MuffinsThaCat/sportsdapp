@@ -4,9 +4,10 @@ const router = express.Router();
 
 /* GET copany page. */
 router.get('/', function(req, res, next) {
-    res.sendFile(path.resolve('views/loyalty-and-rewards.html'));
+    res.render('loyalty-and-rewards.hbs', {
+        layout: false
+    });
 });
-
 
 
 module.exports = router;

@@ -4,7 +4,9 @@ const router = express.Router();
 
 /* GET copany page. */
 router.get('/', function(req, res, next) {
-    res.sendFile(path.resolve('views/digital-id.html'));
+    res.render('digital-id.hbs', {
+        layout: false
+    });
 });
 
 

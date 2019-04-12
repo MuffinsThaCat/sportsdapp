@@ -4,7 +4,7 @@ const router = express.Router();
 
 /* GET copany page. */
 router.get('/', function(req, res, next) {
-    res.sendFile(path.resolve('views/fan-engagement.html'));
+    res.render('fan-engagement.hbs', { layout: false });
 });
 
 

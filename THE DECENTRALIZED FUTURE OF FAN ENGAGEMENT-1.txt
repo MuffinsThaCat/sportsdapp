@@ -1,0 +1,1233 @@
+﻿THE DECENTRALIZED FUTURE OF FAN ENGAGEMENT
+
+
+March 26, 2019
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Index
+
+
+Foreword
+Introduction
+Section 1 : The Smart Stadium
+i) Towards 5G
+ii) Review of Activation Technologies in the Smart Stadium
+Section 2 : The Problems
+i) Data Privacy
+ii) Friction
+Section 3: The Advent of Blockchain
+i) Understanding The Problem
+ii) What is Blockchain?
+ii) The Advantages of Blockchain
+Section 4: The Blockchain Stadium
+i) The Stadium as a Platform
+ii) Current Utilizations
+iii) Game Changing Potential
+Section 5: Key Features of Sports dApp
+i) Dynamic Loyalty Program 
+ii) Interactive Games 
+iii) Smart Tickets, Property and Proof of Ownership
+iv) Frictionless Payments
+v) Big Data to Blockchain Marketing: A Shifting Paradigm 
+Section 6: Sports dApp Technical Implementations 
+i) Distributed Hybrid Stochastic Automata
+ii) Game Theoretic Model
+iii) Proofing Growth and Demand
+iv) Sports dApp SDK
+Section 7: List of Key Upgrades on Sports dApp
+
+
+
+
+Foreword
+
+
+
+
+
+
+This paper is a review of the state-of-the-art technology solutions in the sports industry.
+Its main purpose is to advise primary decision makers along the sports entertainment landscape of the problematic technological paradigm which they have grown accustomed to and inform on the solutions which remedy and exponentially improve upon their current digital media imperatives.
+
+
+Sports dApp is a decentralized mobile app development company for the sports industry and a research initiative which advises on the current state of the digital economy. 
+
+
+
+
+
+
+
+
+
+
+Abstract. 
+
+
+
+
+(Abstract on research part of paper)
+
+
+Sports dApp is a decentralized fan engagement and rewards platform which aims to revolutionize the ways professional sports teams interact with their fans. Our mission is to provide sports teams a dynamic new mobile experience in support of, as an extension to, or as a replacement of an existing mobile application. Sports dApp allows for seamless vertical integration of existing digital content and revolutionary new features built on the frontiers of Augmented Reality, Artificial Intelligence and Blockchain Technologies. The key differentiator of Sports dApp is its focus on building fan communities, connecting them in stadium and remotely using highly innovative activation strategies which trigger new forms of participation.
+
+
+Introduction
+
+
+Although there's nothing quite like attending a live game, feeling the roar of the crowd and cheering the home team on to victory, more than ever before stadium operators are challenged to lure fans away from their couch and big screen TV's. To correspond with the increase in remote viewership, over the last 20 years professional sports teams have appropriated a larger percentage of their marketing budget towards engaging fans in their homes. Increased attendance at the stadium however, with fans spending money on concessions and merchandise, dwarfs any potential monetization strategy tied to a fan watching at home.
+
+
+While passionate fans are often eager to support their team in person, the remote viewing experience is often regarded as providing equal entertainment value. 
+
+
+Moreover, in the age of digital media and mobile consumption stadium operators are struggling to present their content in line with the rapid pace of technological advancement. A new experience at the stadium is such required.
+
+
+As a profit centre, a stadium can turn into a great promotional and marketing vehicle for organizers and sponsors. By combining geolocation, real time content, advertising, couponing and advanced user-centric data analytics, stadiums can better engage with users to improve their overall experience.
+Stadium operators have a massive opportunity at hand. By transforming the stadium into a smart stadium operators have the ability to meet the demands of their customers through a diversity of new technologies which amplify fan interaction and foster positive brand perception.
+
+
+1. Review of Multi Agent Systems (MAS) in the Smart Stadium 
+
+
+HIGH-DENSITY (HD) WI-FI NETWORK
+
+
+The first step for making a stadium smarter is to roll out a HD Wi-Fi infrastructure that supports thousands of users across multifarious profiles and devices. In a smart stadium, the experience starts even before the event kicks off.
+
+
+WI-FI MARKETING
+
+
+Wi-Fi Marketing is a great way to monetize an audience, by collecting activity-based data: how many unique visitors? what is the average duration of a session? what are the user profiles (age range, gender)? what is each profile interested in? Such data helps stadiums improve their communication programs by delivering tailor-made, real-time messages to online users. 
+
+
+Targeted marketing actions can also be implemented by leveraging games, contests and quizzes, and customer loyalty can be advanced by offering previews of upcoming events. These are all great ways to encourage repeat business and bolster a games occupancy rate.
+
+
+GEOFENCING
+
+
+Geofencing offers obvious benefits to users and brands. A coupon-based offering, promoted by online notifications and through various technologies such as Beacons or Wi-Fi Positioning System (WPS), is a great way to capture user attention. Furthermore, by geotagging fans and tracking their movements, the stadium can better understand their needs and interact with them in an intelligent way:, redirect the fans to less concentrated exits, or retrieve attendee comments or suggestions regarding the event.
+
+
+SMART GRID
+
+
+Smart grid’s are essential to facilitate efficient and improved two-way path of communication and power handling.
+
+
+
+
+MOBILE CLOUD COMPUTING (MCC)
+
+
+Mobile devices have strict resource limitations. They are unable to process rich media content on their own. To do so requires several strategies for offloading tasks. Mobile cloud computing (MCC) is an enhancement of cloud computing which offers mobile devices the ability to access computationally intensive services.
+By linking them to form a resource cloud powerful computation and storage services.
+Processing applications in real time however are beyond the facility of the resource cloud.
+For this a cloudlet is required.
+
+
+
+
+
+
+CLOUDLET
+
+
+A Cloudlet is defined as a small scale cloud data centre comprised of local, trusted computing devices, for processing data over a LAN connection. Cloudlets help to reduce power consumption and latency of transmission.
+
+
+
+
+INTERNET OF THINGS(IOT)
+
+
+Internet of things (IoT) is a new addition to the network paradigm supporting large scale data collection including its processing of data on the cloud. IoT includes sensors and small embedded computers with the ability to connect to the internet.
+
+
+
+
+FOG COMPUTING
+
+
+Fog computing was invented for the purpose of solving the problem of having a huge number of IoT machines and cyber physical systems which are unable to work by being connected to servers on the cloud. Fog computing model proposes the idea of using shared servers for computation and introducing device learning service. It allows mobility, real time employment, low latency and location sensibility.
+
+
+
+
+EDGE COMPUTING
+
+
+Edge computing is done by the end device and network elements. Edge term is used to address the line connecting the cloud servers and the user devices, in this article it refers to network backhaul computation. Its way of operation is by doing the computations and then save them at the available local resources at the end devices. Edge computing are faster than fog computing and it doesn’t require an abstraction layer.
+
+
+
+
+MOBILE EDGE DATA (MED)
+
+
+Mobile edge data (MED) was introduced because of the intensive growth of network traffic due to the use of smartphones that needs extreme data processing. It fixes the latency, location identification, power issues, reliability, helps with the reduction of bandwidth, rapidity and many more.  Servers are put close to base stations where activities of smart devices are processed. Edge servers decrease backhaul jam. MED challenges include performance, privacy and some legal issues. MED is accessible for any mobile user and its servers are being controlled by mobile operators.
+
+
+MIST COMPUTING
+
+
+Mist computing is the kind of paradigm that uses pros of every processing capacity anywhere. The nearer the computation is to the end user, the more the ability of gain its full performance.
+
+
+Section 1 : The Smart Stadium
+
+
+i) The Smart Stadium
+
+
+A successful recipe to building a smart stadium includes thorough research and planning, innovative design and strategic deployment, agility to quickly react to unexpected changes on demand and solve problems through optimization and fault management strategies. The state of the art stadium is a miracle of technological integration. The foundational physical infrastructure includes miles of cabling offering an abundance of power and networking capabilities along with thousands of access points that provide super-fast connectivity. This layer works towards processing and outputting relevant data. It funnels this data into visualization systems and then translates it into fan-friendly formats for display on stadium device’s and/or the fan’s personal device.
+
+
+Stadium integration solutions interface with internal systems to manage the upkeep of necessary facilities within the venue. External systems are supported by the stadium’s broadband capacity, and network coverage expands the reach of the platform far beyond the gate of entry. These systems can be programmed to account for available parking, track the flow of public transit, and can even provide recommendations on nearby retail and dining.
+
+
+With all these variables at play ensuring app coverage can be a major challenge as the networks will have to cope with massive crowds in dense areas and manage large streams of traffic.
+
+
+Existing LTE and 4G networks will struggle to meet demand as the Internet of Things
+(IoT) brings more devices into the fold. The future smart stadium will of necessity be 5G
+Enabled. Needless to say, this requires a significant investment by the team, its city, and the stadium owner.
+
+
+The new Mercedes-Benz stadium aims to provide a next-generation digital experience along with a highly contextual, more personalized game day for fans. This stadium introduced a Unified Stadium Technology Platform devised by IBM. 
+
+"A passive optical network with almost 4,000 miles of fiber forms the backbone of the infrastructure. Nearly 2,000 fast wireless access points provide pervasive access throughout the facility. Enough for all 71,000 fans to stay connected to the outside world and tweet, stream and share their stadium experience.
+
+The platform also handles all the audio and video throughout the stadium, feeding 2000+ monitors, 3,200 speakers and the largest LED video display in all of sports: a 360-degree, 63,000-square-foot HD Halo Board large enough to fly a helicopter through."
+
+
+https://www.ibm.com/sports/atlanta-stadium
+
+
+
+
+
+
+
+
+
+
+
+Section 2: Data Privacy Crisis
+
+
+i) Big Data
+
+
+Big Data presents an opportunity for sports teams and their associate partners a channel to optimize their processes and achieve greater competitiveness.
+ 
+Big Data is useful in processing unstructured databases (NoSQL) by collecting and processing large volumes of information about customers, employees, products, finances, activities, etc. 
+
+
+Data science involves processing vast amounts of unstructured data in automated ways in
+order to extract logical, useful information from it and make prediction regarding future trends
+and system behaviors. Unstructured data comes from video, audio, social media, manual
+surveys, clinical trials and many other sources. This can be lumped together as human
+consumable data, which can be read and analyzed in tabular form. The amount
+of data is so vast, though, that this is entirely impractical, hence the need for automating and
+speeding up the process.
+
+
+Machine learning can process large collections of data in order to find patterns. Account for variabilities, markup incidences of greater similarity, test this logic, and make suggestions or automate changes based on this result. Basically, it instructs a system how to behave
+under certain circumstances. A prime example of this is Facebook’s algorithm. Here, the
+algorithm observes various users on the social media platform in order to determine patterns
+of user behavior and interactions. This information is used in order to tailor the user’s news
+feed to articles that they are likely to enjoy. Amazon uses a similar principle to suggest
+products in their “you might also like” category. Youtube, Netflix and a myriad of other media
+platforms and online retailers work on the same principle to suggest your next view, article or
+purchasing suggestions.
+
+
+Machine learning is a subset of artificial intelligence (AI). Here, a problem is defined in finite
+terms and the algorithm is programmed to know the “right” decision. Now, it trawls through
+the data at hand to determine which parameters are needed in order to get to that decision.
+
+
+When developing a machine learning algorithm, a training set of data is often used  the algorithm to perform a specific function. This would be fine tuned and can later
+be recalibrated using a new set of data. On the long run, this would lead to a highly
+sophisticated algorithm that can accurately predict future trends and system behavior and
+can also make complex decisions in an unsupervised manner. This eliminates the need for
+regular human interference. Here, regression and naïve Bayes or supervised clustering
+could be used. Machine learning would not include unsupervised clustering, as is the case
+with the broader data science discipline.
+
+
+Data used in machine learning must be structured in a way that an algorithm can read. Here, feature scaling, word embedding and adding polynomial features are
+some of the tools that can be used to render data useful and understandable for each
+specific application.
+In machine learning, the main complexity is in the algorithm itself. In some cases, an
+ensemble algorithm would be used, which is a combination of various machine learning
+algorithms. Here, the contribution from each algorithm would be weighted in order to obtain
+the desired results.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+There is a fine line between the legitimate use of user information and breach of privacy.
+The processing techniques used for mining this data introduce a new layer of security vulnerabilities. Fundamentally, these types of processing systems have not been designed with security principles in mind. 
+
+
+
+
+One of the Big Data lies in the application of security mechanisms that control
+access to the information manipulated in Big Data systems. However because Big Data the information is typically stored in an unstructured way, so data anonymization is a task that entails a fair bit of complexity. The process of anonymizing the data consists of applying interference techniques. A basic example of this is the use of encryption so that the information is stored in a hidden way and only those authorized parties can decrypt it and access the original content. 
+
+
+Defining these policies is a challenge because the information is unstructured. All the information collected by the organization must be analyzed in order to determine if it should be protected. Furthemore teams must define those policies that allow you to protect your data in a way that does not violate the privacy of your clients.
+
+
+
+
+
+
+ii) DNP3 Network Vulnerabilities
+
+
+DNP3 being an open standard protocol can be deployed using several topologies such as; point to point, multi-drop topology or hierarchical layout where systems mimic a tree like structure. 
+The DNP3 Protocol Stack
+when a data stream of DNP3 is sent over a LAN/WAN its mapped to the upper layers of the OSI model; data link, pseudo-transport and application layers and then encapsulated in the Transmission Control Protocol then further encapsulation in the Internet protocol.
+DNP3 Threats and Vulnerabilities
+Since DNP3 operates as an open standard communication protocol it allows internet enabled devices to communicate using several protocols such as; HTTP, UDP. This leads to threats and vulnerabilities in the smart grid environment. DNP3 depends on remote access architecture for all kinds of data within the internet enabled devices which is a logical place to implement functions such as authentication and encryption, this however means communication between internet enabled devices are plain text and vulnerable. 
+Furthermore, DNP3 faces a number of threats that threaten a system's functionality.
+Secure authentication is essential but current DNP3 deployments are without the secure authentication, this increases the chances of potential penetration during an attack since the system has mixed protocols. Most IED’s come with factory default username and passwords due to system limitations this means that any adversary who can infiltrate the network access point can easily attack the smart grid system.
+Due to the remote access architecture of the DNP3, a remote client to IED’s can download IED Configuration Definition files which allows interoperability, reconfiguration of IED, restarting the IED and logging. This means any adversary who can infiltrate the IED can configure the IED for malicious purposes, render IED inaccessible or use it to discover connectivity graph or locate other IED’s that might have a bigger impact on the overall system by accessing configuration definition file that will give the necessary information about substation network.
+
+
+Attack Models Under DNP3
+There are two important possible attack scenarios; DNP3 unsolicited messages attack and DNP3 data set manipulation attack. 
+ 
+Unsolicited Messages Attack
+This is where the outstation can communicate certain activities to the master station without being polled, its considered to be a way for Remote Terminal Unit. Normal communication occurs between the master station and the outstation exchanging DNP3 messages encapsulated in TCP/IP packets, an attack can be performed to intercept the communication by stopping the outstation from sending unsolicited messages without affecting the normal communication.  This kind of attack can be disastrous if penetration occurred in smart grid network where the adversary intercepts the communication channel and then inject the malicious payload data without affecting the rest of the communication between the master station and the outstation.
+Data set Manipulation Attack
+This kind of attack exploits the DNP3 weakness nature of any DCP3 over TCP/IP which doesn’t use encryption in the transport layer protocol. Here the infiltrator can entirely alter the content of the TCP payload or entirely replace the content with a new one by modifying the TCP/IP header and DNP3 messages, the attacker can then control and redirect the DNP3 traffic and even modify the messages that are being exchanged between master and outstation. Adversaries commonly alter the destination address for the DNP3 packet coming from a master node to point to a different intended DNP3 outstation node so that he can collect more information about the master station.
+
+
+Cross Site Scripting
+Attackers use Cross-site Scripting (XSS) to inject malicious scripts into what would be harmless
+websites. Because these scripts appear to come from trusted websites, the end-user browser almost
+always executes the script, granting the hackers access to the information contained in the cookies or
+session tokens used with that site. . The XSS is generally used to obtain access from a user of the
+Account.
+
+
+Denial of Service (DoS) attack
+A denial of service (DoS) attack is a malicious attempt to affect the availability of a selected system, for
+example, a website or an application, to legitimate end users. Normally, attackers generate large
+volumes of packets or requests that end up overflowing the target system. If a Denial of Distributed
+Service (DDoS) attack occurs and the attacker uses multiple sources controlled or at risk to generate the
+attack. DDoS attacks disrupt normal business operations by degrading the performance and availability
+of websites and applications, or even disconnecting them completely.
+(include in box)
+
+
+At the end of September, Facebook disclosed a data breach in which attackers gained access to 30 million accounts by stealing "user authorization tokens," essentially access badges that get generated after a user successfully logs in.
+
+
+Attackers made off with information from 100 million accounts. Details like a users Social Security number, other data like names, email addresses, IP addresses, usernames, encrypted passwords, user account settings, a and Quora activity and content, including drafts and data from potentially linked services like Google and Facebook may have been compromised.
+
+
+Google announced in October that it is going to shut down its beleaguered social network Google+. The company said that after an extensive audit it had concluded that Google+ wasn’t worth the expense to support and secure.
+(include in box)
+
+
+
+
+
+
+iii) Attack Detection and Mitigation Strategies
+
+
+To protect DNP3 based implementations from malicious attacks is by using Intrusion Detection. These intents include attempts to manipulating DNP3 traffic, intercept the network or interrupt communication. The main types of the Intrusion detection include;
+Host based to provide protection at the host level and network based and Network based to monitor all the traffic in the network. Most attackers will send a discovery message to the legitimate node to find out the security level and if there is no positive alarm in response to the attempted attack, it will be an indication for a possible successful attack. 
+
+
+Plan the scaling
+Transit capacity. When designing your applications, make sure your hosting provider provides ample
+redundant Internet connectivity that allows you to manage large volumes of traffic. As the ultimate goal
+of DDoS attacks is to affect the availability of resources and applications, you must place them not only
+close to your end users but also to large Internet exchange points; This will give users easy access to the
+application even during large volumes of traffic. In addition, web applications can go further and use
+content distribution networks (CDN) and intelligent DNS resolution services they provide an additional
+layer of network infrastructure for server content and resolve DNS queries from locations that are often
+closer to their end users.
+Server capacity. Since most DDoS attacks are volumetric attacks that use a large amount of resources, it
+is important to be able to expand or reduce computing resources. To do this, it can run larger computing
+resources or features such as broader network functions or improved networks that support larger
+volumes. In addition, it is also common to use load balancers to constantly monitor and transfer loads
+from one resource to another in order to avoid overloading a resource.
+
+
+
+
+Section 2: The Problems
+
+
+iv) Data & Friction
+
+
+The fundamental ingredient powering the facility of modern technology is data. The value of data increases exponentially when appropriated relevant attributes. In much the same way that other asset classes fuel economic motive and consumer interaction, data, specifically in its precision, has become a fuel driving growth and asset class in and of itself.
+
+
+
+
+Naturally organizations have become 
+
+
+
+
+All participants within this model of centralized distribution arrive at a common ethical interference: 
+
+
+
+
+
+
+2)  Spontaneous organization based on a shared profit motive
+3) Cross cooperation based on big data analysis
+4) Minimal oversight of the system or process. 
+5) Distribution of user data 
+
+
+Suffice it to say this approach to the dissemination of data is abundantly lacking in its overall utility.
+
+
+
+
+
+
+
+
+Social Computing and Dispersed Computing
+
+
+
+
+
+
+
+
+Social computing is a paradigm used to stimulate and analyze users’ actions on social media to generate intelligent interactive applications. These computing use complex analysis and computation methods.
+
+
+Dispersed computing includes protocols for an aware computation. It is typically used when reduction of connectivity of the network happy to fix latency. It was created to co-op with unpredictable and unstable network connectivity. While in social dispersed computing paradigm puts a user interaction into consideration like sending an email to benefit globally using local computations. Adaptation is the main factor in this system, so computations works more active.
+
+
+Social dispersed computing uses intelligent software agents to perform complex assignments.
+Social dispersed systems are the combination and enhancement of multi-agent systems and enhanced social actions and sensors. Multi-agent systems are flexible as they interact with the surrounding environment, self-driven as they must take decisions to fulfill goals and social to be able to interact with surrounding agents. From its optimistic initiatives are open distributed systems which is known for conflicting goals, heterogeneity and diversity of specifications. To fix these issues many software agents should be used which in this case norms are used to fix autonomy. Norms manages what is permitted and prohibited in societies and define their advantages and roles and thus agents can plan their behavior depending on the most probable.
+
+
+Developing applications built by new generation of distributed systems needs special tools and infrastructures to provide features in multi-agent systems which ease the fulfillment of system design.  For the reason of including multi-agent systems in real domains, their infrastructures and tools must prove professionalism, stability and privacy issues fixing to be able to establish an application.
+
+
+
+
+Incentives are required to collaborate as a social dispersed computing resource and obtain information and the best match to serve this foundation is a market based distributed framework. Blockchains general agreement on the value of any variable without depending on third party and include fault-tolerance. Blockchains allows execution of computations in a secure way in the form of smart contracts. In social dispersed applications a mutual synchronized time base and alignment of each node’ local clock to a global reference needed to be done. This process requires careful considerations to prevent local event scheduler disruption. Two technologies are used to help with this issue: The Network Time Protocol and The Precision Time Protocol.
+
+
+A distributed coordination administration gives common services to coordination among on-screen characters that keep running on a network of nodes. The distributed coordination administration incorporates group enrollment, pioneer race, appropriated accord, and time-synchronized facilitated activity. Coordination systems are required to stabilize shared state in a harmonious and fault-tolerant style. Distributed hash tables are used to save data used for coordination.
+
+
+From the main supporters of cloud computing is the virtualization technology which also participate in social dispersed computing. Partial computations will occur in a near servers that will sum the data from users then communicate back to them and to the server. Virtualization is important in separating the execution of applications located on the same existing node. There are several types of virtualization. Machine virtualization which It gives a deliberation of the real hardware resources, guiding the virtual resource to the real one, offering applications a diagnostic outlook through
+interfaces of the hardware platform and underneath resources, virtual machine which is an application of the existing execution platform that can execute the same programs as the physical machine, containers where different implementations can be executed on one operating system, and finally microservices that execute singular process and communicate using lightweight techniques, they can run many applications through API and other protocols like HTTP and REST for its lower complexity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A convoluted system of international and regional agencies act the part of gatekeepers to the flow of trade.
+
+
+A sophisticated and transparent data analytics platform is available to stadium operators. In connection with our DS economy will allow us to serve
+Our platform unlocks new opportunities in foreign marketplaces for rights holders. In tokenizeing Live game/event rights can access foreign marketplaces that
+
+
+Rights holders are empowered to support their fan bases 
+The tokenization of sports content unlocks a new libertarian mode of content distribution that involves all stakeholders.
+
+
+• Little to No direct (two-way) communication between content creators and fans (Fan Engagement problem) • Traditional Broadcasters rely on antiquated viewing measurement systems (Nielsen, Comscore, etc.) • Increasing restrictions
+and laws of traditional/ major distribution platforms in their user knowledge sharing temperament and capabilities.
+• Lack of personalization - One-size-fit-all approach by ancient distribution platforms 
+
+
+Solution: By implementing a behavior modification around sports content, fans go from a passive role to an active
+and engaged role. The SD wallet allows for each fan to be identified and engaged individually.
+This creates new opportunities that ne'er existed within the ancient broadcasting model.
+
+
+The ultimate fan experience combes the excitement of live and Video on Demand (VOD) sports content with the power of social media, gamification, predictions, fantasy leagues and e-commerce. It allows fans to: • Pledge and vote for their favourite content • Control their own experience by only paying for their preferred content • Engage directly with their
+favourite clubs
+
+
+
+
+
+
+
+
+
+
+Section 3: The Advent of Blockchain
+
+
+i) Understanding The Problem
+The way we understand and shape the world is in constant flux, and technology is the primary agent of this change. To meet the on demand expectations of the user and future proof an application to not only compel today's generation of users but the next and next thereafter, there is a need for buy in among shareholders to confront the limitations of the existing technological paradigm. 
+
+
+
+
+Most applications we use are centralized.  This is to say that the entirety of the computer code is contained on a centralized server. When we use a web or mobile application, assuming we are requesting data that is not already on the application, the requests are mediated through a service provider, which then communicates with a central server and relays the appropriate command response back to the user in the form of an activity represented on the application. If the central server fails the whole application crumbles to a fault. 
+
+
+Permissioned computational structures can remedy this situation to an extent, but fundamentally there must be an agreement at the source of these permissions; assurity that nothing in the coded permissions will allow one organization increased access to information or worse, control over the system entirely.
+Storing this information within a centralized database numerous security risks that attackers could take advantage of to compromise and access potentially valuable information. A source of security problems lies in the very nature of the manipulated data. In addition, the process of handling this data creates numerous security risks both in the way they are stored, processed and accessed. If a node is
+compromised and provides (intentionally) erroneous information, the aggregate results will also
+be erroneous.
+
+
+
+
+ At a much broader level an archipelago of centralized databases , and often become classified as assets.
+
+
+
+
+
+
+The limitations of cloud computing impose an upper limit on further innovation. 
+
+
+-limits all additions to the networks ecosystem to individuals who have permission to access
+
+
+-depends on a servers ability to compute 
+-requires third party intermediaries to monitor and assess the activity and transactions occurring on the network
+
+
+
+
+
+
+
+
+Decentralization is overwhelmingly recognized by data scientists, technologists, and futurists alike, as the solution and next frontier of the digital economy. 
+
+
+
+
+The future pivot of blockchain society is fast approaching. The sports industry is uniquely well positioned to become an early mover and shaper in the next digital revolution.
+
+
+
+
+
+
+
+
+
+
+Section 3: The Advent of Blockchain
+
+
+ii) What is Blockchain?
+Presenting a conceptual understanding of the blockchain for the sports industry within the broader process of the emerging next generation internet.
+
+
+Blockchain is an emerging technology that is currently experiencing very rapid evolution. Within the space of 2 to 3 years it has gone through changes in its technical implementation and our understanding of what it is and can be. 
+Blockchain calls into question what might have seemed to be established parameters of the modern world like currency, economics, trust, value and exchange. To make sense of this one needs to understand it in a holistic context all the way from its technicalities to its aspirational potential. 
+
+
+On its most basic level the blockchain is a new class of information technology that combines cryptography with distributed computing. It is a network of computers which collaborate towards maintaining a shared and secure database. This database consists of a string of blocks—each one a record of data that has been encrypted and given a unique identifier called a hash. Nodes on the network validate transactions, add them to the block they are building, and then broadcast the completed block to other nodes so that all have a copy of the database. In order to verify that the information being broadcasted is correct the blockchain relies upon a distributed consensus algorithm. In order to make an entry onto the blockchain all the active computers must verify that the information is correct, therefore no one computer can make an alteration without the approval of others. Once complete the block goes into the blockchain as a permanent record. Each time a block is completed another block is generated. These blocks are set about in a chronological and linear order, connected like links in a chain. All transactions in the block are immutable, which means that they cannot be deleted. Thus a perfect history of all activities and transactions on the blockchain is available as a record! 
+
+
+This much is clear: Blockchain will redesign the internet and shake up the existing centralized incumbents. This paper will introduce the reader to the culture and its aspirations. It is accessible to anyone with a basic understanding of web technologies and economics. 
+
+
+
+
+
+
+Section 3: The Advent of Blockchain
+
+
+iii) The Advantages of Blockchain
+
+
+Trust is established not by centralized  institutions but by protocols, cryptography and computer code. This strengthens our capacity for collaboration and cooperation between organizations and individuals within peer networks. For the first time in human history  people anywhere can trust each other and transact within large p2p networks without centralized management. 
+
+
+
+
+The idealized mobile application the luminaries of our industry envisioned were littered with theoretical challenges which called upon developers to build from a toolkit ill suited to the task. Native programming languages have undoubtedly become useful in this respect, however, this is invariably a bandage solution to a surgical problem. Upgrades to user experience such as interoperability, size reduction of hardware, and increases in graphic display are no small feat to be sure but in the relative scheme of possibility these upgrades are incremental advancements. When concentrated along the broader landscape of possibilities this progress is microscopic. 
+
+
+This problem is solved with the use of a decentralized network.The secret to this network is its use of public-private key cryptography and consensus protocols for ensuring the authenticity of published data. This ensures that no-one can modify the application or any of the contents their within. Instead of getting electricity from a massive power generating station, we can think of the distributed network as a wide distribution of smaller power generating stations which have the potential to power new methods of digital distribution.
+
+
+
+
+
+
+In a stadium environment this power supply is the fans mobile devices. The more fans using the applications on their devices the more power. We intend to convert this power into participation through a reformatted and redesigned approach to fan interaction. This will translate into sophisticated new revenue generating modalities adapted to meet the challenges of the next decade.
+
+
+
+
+
+
+
+
+
+
+Section 4: Blockchain Internet of Things (BIoT)
+
+
+As the transition to a data driven world accelerates impelled by the pace of technological innovation in Internet enabled devices many of societal norms will be challenged.  The increasing competition for scarce resources will drive companies to strive to find the cutting edge to maintain their lead ahead of any rival.  It is in this ecosystem that blockchain technology can offer IoT platforms a model for distributing trusted information in a non centralized and more secure way.  There is still much research needed to be done to improve both the scalabily of blockchain solutions and the application to the developing IoT ecosystem. 
+
+
+The current state of security for IoT devices varies greatly between manufacturers and is one of the main stumbling blocks preventing increased adoption of this technology.  
+
+
+As more devices are connected to the Internet and considering that many IoT devices have limited power available, being run on batteries, the issue of addressing such devices on the Internet becomes a major problem.  IPv6 has a 128-bit address space whereas blockchain has a 160-bit address space and can provide 4.3 billion more addresses than can IPv6 thus making blockchain a more scalable solution for IoT.  Many IoT devices due to power constraints and lack of computing capacity would be unable to support an IPv6 stack.  The use of blockchain technology to administer the addressing of IoT devices eliminates the need for a central authority such as the Internet Assigned Numbers Authority to supervise and maintain this vital service.
+As the owner of an IoT device changes during its lifetime from the manufacturer through the supply chain to the consumer. There needs to be a system in place to manage this and other identity relationships until the device is decommissioned.  Another challenge is the managing of the attributes that a device might have, for example, the make, serial number, location, and GPS coordinates to name a few.  IoT devices will also have relationships that can be device to device, device to human or device to a service.  These changes in relationships can also include such as sold by, shipped by and repaired by, all need to be recorded and updated during the life cycle of the device.  Blockchain Technology has the ability to easily and securely solve these challenges.  Blockchains have been used to provide trustworthy and authorized identity registration, ownership tracking and as well as monitoring products, goods, and assets.  By storing data on the blockchain distributed ledger IoT devices can be registered and given an identity along with a set of attributes and any complex relationships that may be in place.
+
+
+
+
+
+
+
+
+
+
+
+
+Section 4: The Blockchain Stadium
+
+
+i) The Stadium as a Platform
+
+
+The physical infrastructure of the stadium along with the associated
+operational software makes up the technology level of the concept of the stadium as a platform.
+
+
+
+
+Although this strong technological foundation is of vital importance for providing fans with the
+service that is expected from a modern stadium the truly transformational potential for value
+creation lies in opening up the stadium for fans and other partners to build on top of the
+existing infrastructure. This would include the development and release of protocols, an application program interface(API), and a software development kit(SDK) that the team and venue can supply to fans, sponsors and partners to access the core technology of the stadium.
+
+
+A wayfinding application could be an especially valuable resource. 
+Such an application could guide fans to the least congested stadium entrance and provide them  step by step instructions to find their seat.
+
+
+ Also here you would find audio and visual feeds that can
+capture fan-created content easily transmitted across social media, in-game promotions and
+targeted marketing campaigns.
+
+
+Social listening would give teams and the venue immediate feedback from the fans regarding their experience at the stadium and help to resolve any operational problems. The last thing that a team and stadium owner wants are disgruntled fans tweeting the stadium's shortcomings to their friends, thus keeping potential clients away. 
+
+
+
+
+
+
+
+
+By opening up the stadium's digital presence to developers, sponsors and
+users to build upon the resulting third-party experiences compliment what the team can deliver.
+The team is focused on delivering the best possible game experience to the fans. By giving
+developers access to the stadium infrastructure allows the team to benefit from the combined
+creativity of many people. These experiences can include augmented reality and virtual reality
+by both recreating the stadium and the games as well as overlaying the player and game data
+over the field whilst the game is in action. Another example of a third party application would be
+the creation of a system where the fans could bet on in-game events using virtual currency or
+bitcoin/cryptocurrency or even fiat dollars.
+
+
+Stadiums could also allow fans access to some
+stadium elements such as cameras to personalise their view of the on-field action.
+As a stadium competes not only with other stadiums and events for a fans patronage, it is also
+competing with the allure of watching the game in the comfort of your own home. 
+
+
+In building a platform with all the latest advances in consumer technology that a stadium has the
+ability to woo the fan out of their comfort zone. As these new technologies can be used outside
+of the stadium the operators need to be conscious of the changes needed to build the platform
+and the operational and organisational mindset changes that this entails.
+
+
+The transformation of a stadium into a platform also consists of opening up the stadium
+technology to third parties, including sponsors, developers and advertisers. This change
+requires a major change in the stadium business model. The economics of a platform is
+significantly different from that of selling the stadium experience of the past. That is an event
+surrounded by neighbouring businesses such as retail and food concessions for the price of a
+ticket. The new stadium model forces the stadium owner to be more than just the operator of
+the venue. They must become the architect and manager of the platform. This paradigm shift
+does carry risk, however, there is also a powerful potential opportunity to create new sources of
+value for fans and partners. There are three main elements required to maintain and build the
+stadium platform.
+
+
+
+
+The evolution of the stadium as a platform and a stand-alone product can be attributed to what is known as network effects. Simply put, as more people use the platform the utility of the
+platform to other users increases. A telephone in an isolated network is useless, it only becomes
+useful when it connects to other telephones and the more telephones connected the usefulnes. 
+
+
+As the number of users on a platform increases it becomes increasingly more attractive for developers to create applications that run on the platform and for advertisers to then use that platform to reach their target audience. 
+
+
+
+
+
+
+
+
+To open a platform to third-party development is not without risks. Admitting other entities to the
+core infrastructure and allowing them to manipulate the data therein in order to build new
+experiences for the fans can be fraught with danger. The venue loses control of how the fans
+interact with it. It is therefore imperative that the stadium operator has in place a concrete set of
+rules on what data can be used. How it is used and for what purpose it is used for. There must
+be guidelines and policies for developers and the stadium operator must also ensure that there
+are commercial guidelines for the management of transactions within the stadium as well as
+how revenue is distributed between the stadium, its partners and the team. The stadium
+operator must also designate and communicate how misuse of the infrastructure will be
+addressed and must always ensure that these rules are enforced.
+
+
+
+
+
+
+
+
+ii) Current Utilizations of Blockchain in Sports
+
+
+Fan360 
+
+
+Each action on their application allows users to receive a Fan360 coin which can be cashed in for certain limited experiences or traded against bitcoin for other types of currencies. 
+
+
+Fans Unite 
+ 
+This app has a plethora of functions that increase fans engagement of a sporting event. Each tool is designed to make betting on the blockchain accessible and interactive for fans. Such tools include decentralized sportsbooks, betting exchanges and fantasy applications.
+
+
+
+
+Token Stars 
+
+
+Fans can use a scouting module to help give reports on athletes while receiving tokens for doing so. They can also view a prediction module, vote, and participate in a blockchain auction. 
+
+
+Jetcoin 
+
+
+They have created a token which allows users to invest in the future performance of athletes by purchasing stake in their future performance. The fans then get paid out based on their stake and investment in the athlete. Users can trade the coin on several exchanges for an assortment of todays most popular cryptocurrencies.
+
+
+The Sacramento Kings recent design of the Golden 1 Centre is a valuable case study. The Kings' mobile application allows fans to watch multi-camera replays, upgrade their ticket, and even adjust the underwear thermostat vents. Over 1,000 Wi-Fi access points are scattered throughout the arena ensuring app coverage.
+
+The arenas implementation of a smart entry point system has drastically improved the process of fans entering the stadium. A tier 4 data centre which is housed beside one of the smart entry points is used not only to improve connectivity within the stadium but also to mine ethereum. The proceeds from mining ethereum are used to fund STEM education programs on the uses of cryptocurrency and blockchain technologies.
+
+By investing in 5G and Blockchain the Kings have been able to attract several high tech companies looking to trial their own innovation projects. Verizon for example trialled its 5G home network at the arena. In exploring the capabilities of 5G Verizon set up a 360 degree camera on the scores table, synced the video to VR headsets, and streamed footage of the game in real time to a group of 20 students set up in the esports lounge.
+
+
+
+
+
+
+iii) The Game Changing Potential
+
+
+Blockchain offers early movers a chance to deliver on web3.0 capabilities.
+
+
+In 2018, attendance at Major League Baseball games dropped to its lowest average in 15 years, down 8.6% from its overall numbers in 2017. This is estimated to cost the league $355 million on ticket sales alone. Calculating in revenue from concessions and merchandise sales baseball teams have seen a significant portion of their revenue evaporate. Conversely over the last 15 years the new entrant on the scene Esports, in which humans compete through digital video-game linked representations of themselves has seen a boom in popularity with an anticipated increase in regular viewers of 124 million between 2016 and 2020. Decision makers in the traditional sporting sector have a lot to learn from their Esport counterpart when it comes to appealing to the new generation of sports enthusiasts. 
+
+
+There is a massive opportunity with blockchain to get fans more invested in the team, its athletes, and individual match outcomes, while also making the overall in-revenue experience more affordable.
+
+
+In the next section we explore at greater depth how blockchain can be used to impact an assortment of stadium experiences.
+
+
+
+
+
+
+
+
+Section 5: Blockchain Solutions
+
+
+i) Dynamic Loyalty Program
+Customer loyalty programs aspire to create positive customer experiences by offering incentives to users. There’s a ton of data which supports the value of cultivating loyalty towards a team through a rewards program; fans who are part of a rewards program convert and spend more at the stadium
+Further, the prospect of mobilizing and activating your loyal customers to recruit new ones should excite marketers, salespeople and customer success managers.
+Traditional approaches to creating customer loyalty programs have run their course. Market research and loyalty industry analytics suggest members tend to disengage from major loyalty programs because they don’t receive enough of an incentive. 
+For widespread adoption of an innovation in this segment there must be a sound commercial advantage for companies implementing this change. In all but a few rare cases, loyalty programs are viewed and treated as a cost to the business, viewed as providing a benefit to the member. The hope is that this investment will result in higher and more frequent spending on the platform. With a CryptoToken program the potential exists to directly generate additional revenue and assets through an Initial Coin Offering(ICO) and a CryptoToken Reserve without adding to any current cost structures.
+
+
+CryptoTokens are a decentralized currency where the value is principally dependent on market forces. The token is actively traded on a digital exchange, and just like trading shares, the value increases when demand exceeds the supply. While E-Points restrict use to their own ecosystem, CryptoTokens can be earned and redeemed at participating retailers allowing for greater liquidity.
+The average American household participates in 29 different loyalty programs yet are active in only half of them. 
+
+
+Loyalty and rewards programs are not reaching their full potential due to account inactivity, low redemption rates, time delays, high system management and customer acquisition costs, and low client retention.
+
+
+Many key decision makers are hesitant to incur the cost of implementing new technology. On this account it should be noted that although a blockchain rewards program requires a fundamental overhaul of how transactions, customer acquisition, and system management are executed, it should be viewed as a system facilitator and not a replacement for an existing system. Blockchain-base middleware such as ChainLink can act as a bridge between smart contracts and off-chain resources like data feeds, various web API's, and databases.
+
+
+A blockchain loyalty program is ultimately a rules engine written out via smart contracts. The best of these loyalty programs can support multi-step campaigns whereby a member must complete a series of tasks to unlock a benefit or reward. This type of platform allows for advanced gamification of the user experience.
+
+
+By registering to the loyalty program the member starts down the path of providing personal data. The agreement is implicit, the advertiser(in our case a team), attempts to get the user to engage more often and/or spend money, and in return they are willing to offer up some kind of reward.
+
+
+After the initial intake it is crucial that the rewards and the adjunct user activation requirements of the program for capturing these rewards are reasonable and fair.
+
+
+A blockchain loyalty program presents a unique opportunity to reward digital points or currency, which are easy to track and can be awarded in small increments for use on the application. The ability to reward users more readily and quickly and update the balance of a digital wallet will lead to an increase in redemption transactions.
+
+
+Thereabout comes the problem of determining how much of this currency should be made available to the user and under what circumstances they would have the ability to earn it.
+For starters the user is rewarded for mining the network. Simply put, anytime the user is on the network a small percentage of their phones computing capacity will be delegated towards verifying, authenticating and processing data onto the blockchain. We recommend that this amount be calculated as a percentage of dollars spent on the application beginning with registration and/or purchase of a ticket.
+
+
+Below are a series of common reward mechanisms:
+
+
+1) Promotional giveaways
+2) Sharing the application - reward is contingent upon the user downloading and purchasing on the application.
+
+
+Below are a series of higher level capabilities available that can serve as a mechanism through which to offer rewards.
+
+
+Gaze
+
+
+Gaze coin allows audiences to interact by pointing their device towards a central identifying location. The coin then calculates the amount of time users spend immersed in that environment, which then allows us to create micropayments that charge advertisers for the time users are engaged while simultaneously rewarding the user for participating.
+
+
+Basic Attention Token(BAT)
+
+
+Attention is measured as users view ads and content in the browser’s active tab in real time. The Attention Value for the ad is calculated based on incremental duration and pixels in view in proportion to relevant content, prior to any direct engagement with the ad. Further cost-per-action models are currently in development.
+
+
+Section 5: Key Features of Sports dApp
+
+
+
+
+ii) Interactive Games
+The budding field of blockchain gaming holds significant potential to create novel revenue generating modalities for sports teams, specifically as a factor in a rewards program. Furthermore providing a mutualistic relationship that meaningfully couples activities on a mobile device with breaks in play, to say nothing of the potential of offering in-game extended experiences with a second screen, offers unique game-changing potential for sports teams to engage, interact and truly connect with their audience.  
+Blockchain games represent a fundamental shift in approach from value extraction in closed ecosystems to value capture in open ecosystems. Many in the crypto world will point to CryptoKitties, a blockchain based video game that allows players to purchase, collect, breed and sell various types of virtual cats as the first real success of blockchain in the gaming sphere. 
+Its implementation was fairly basic to say the least. 
+-Instead of “mining” each node is responsible for processing the data necessary to run the game. 
+-The authenticity of individual virtual items is guaranteed using smart contract standards such as the ERC-721 non-fungible token standard and the newer ERC-1155 reference implementation.
+ 
+Cryptobaseball is another attempt at selling digital collectibles. Collecting is hardly a foreign concept to baseball aficionados. From baseball cards to bats to signed jersey’s there is a clear path forward to building an economy of “true digital scarcity” and “true ownership”. Instead of signed memorabilia Cryptobaseball deals in digital collectible, the bulk sum of which are digital player bobbleheads. The early signs are encouraging, however, the lessons of CryptoKitties still looms large: In order to capture and retain customers there needs to be a layer two experience (building communities that can access shared incentives).
+Consumers of video games are used to earning in-game currencies to spend on in-game items. For too long we have accepted the one way limitation of these internal currencies. It’s time to jettison earlier notions of game currency and move towards tying digital game currency to real traditional currencies in a finite way. In the same way that the vibrant ecosystem of exchanges and consumer experiences around bitcoin, ether, and ERC20 drove liquidity of the assets, the ecosystem created by layer two experiences will be what drives consumer excitement and confidence of digitally scarce assets.
+
+
+
+
+The future success of in stadium gaming will come in the gamification of a rewards system with a dynamic scoring system based on activity, community activity, skill and current rank.
+
+
+
+
+
+
+Section 5: Key Features of Sports dApp
+
+
+
+
+iii) Smart Tickets, Property and Proof of Ownership
+
+
+Ticket fraud occurs on a large scale because tickets are easily duplicated and can be sold multiple times. Bad actors can easily duplicate mechanisms for proving a tickets authenticity(Bar Code, QR Code), which results in confusion and disappointed fans who are prevented from attending the event.
+
+
+Smart tickets are intangible. Duplicating a ticket is not possible because there’s simply nothing to duplicate. The smartphone becomes the ticket. Authenticity of tickets is proven by blockchain: A public ledger that anybody can see.
+
+
+Our programmable smart ticket powered by the GET protocol only reveals its dynamic QR-code when you want it to. Once revealed, smart tickets create a new QR code autonomously every 15 seconds. Screenshots or copies are therefore useless.
+
+
+There is no way of interacting with smart tickets outside of our blockchain ecosystem. Intangible smart tickets give you the power to dictate all the rules that ticket buyers must follow.
+
+
+These rules can include: How and if tickets can be transferred, at what price and at what time. Event organizers get a cut of every resale of a ticket on the in-app secondary marketplace.  
+
+
+No matter what rules you set for smart tickets, fans will always be able to see which rules were dictated. We provide transparency by using our blockchain-based backend called GET Protocol.
+
+
+
+
+Currently the issuer of tickets only receives data from primary buyers.  A huge missed opportunity to build a community of loyal fans.
+
+
+Fans have no idea who is getting which part of the revenue or whether they are paying the correct price for that matter. All sorts of shady fees are charged without the fan actually knowing where their money ends up.
+
+
+
+
+
+
+
+
+Section 5: Key Features of Sports dApp
+
+
+
+
+iv) Frictionless Payments
+
+
+The credit card industry is dominated by a handful of providers that process billions of transactions monthly.
+
+
+In addition to flat fees for POS terminal usage and network fees, merchants pay up to 3.5% in fees per transaction. Incidental fees like chargebacks in case of fraud require intermediaries to resolve disputes adding another potential cost. Nevertheless most merchants bite the bullet on the extra expense because they understand just how much transaction speed has become central to customer experience these days. All of the associated costs are passed onto the consumer. 
+
+
+Payments using cryptocurrencies have progressed well enough as to overcome the slow processing speed that plagued early currencies such as Bitcoin. The often revered million transactions per second crypto enthusiasts brazenly exclaimed to be upon the horizon can hardly be said to be close at hand, however most in the community have come to accept that the need for such processing capacity in order to fuel early adoption is unnecessary. PayPal as an example, a global payments processor running 5 million transactions a day, processes an average of 193 transactions per second. 
+
+
+Among the more recent improvements to payment processing capabilities in the cryptosphere, plasma, a layer 2 technology built on top of the Ethereum protocol, offers a key breakthrough towards capacitating high transaction volume. By offloading transactions off the main Ethereum blockchain and onto a "child" chain, which periodically reports back to the main chain in order to settle disputes, Plasma is already capable of handling tens of thousands of transactions per second.
+
+
+v) Big Data to Blockchain Marketing: A Shifting Paradigm
+
+
+Data is now widely regarded as a valuable commodity, and abuses of its use will be tolerated less and less. Moreover, with the systemic reveal of data breaches over the last years consumers are becoming increasingly weary of handing over their personal data.
+Blockchain marketing is essentially a quid pro quo between the consumer and seller. The consumer volunteers their attention, providing information to the seller in exchange for some kind of reward. The true value comes from the marketers ability to ascribe value to a members attention, advocacy, or data, allowing them to better decide what kind of investment they should make towards them.
+
+
+To illustrate how blockchain marketing may be used in a blockchain stadium loyalty program consider the following example of a member lifecycle. The member joins the program by volunteering their name and phone number and is rewarded with access to the application and a secure digital blockchain wallet which stores all of the personal information they provide. The application offers obvious benefits such as mobile ticketing software, food delivery to your seat and so on. In using the application the member is compelled to load more of their personal data (date of birth, address, e-mail, links to social media profiles, gender, sexual orientation, i.e) onto the wallet in exchange for additional rewards. A small reward is given for viewing a promotion, a larger one for purchasing the product or service, and a significantly larger reward for providing access to some or all of the data within their secure digital wallet.
+
+
+Instead of collecting as much data as possible (subject to the confines of data privacy and security legislation) and then inevitably being bombarded with scattershot promotions which is unfortunately the case with most loyalty programs, blockchain marketing of a loyalty and rewards programs offers an effective alternative that rewards both the seller and consumer.
+
+
+Blockchain marketing has the potential to disrupt the digital advertising industry, renowned for pushing advertisements which are irrelevant, extremely general, or based on out of date data. 
+
+
+Blockchain Marketing requires that we abandon many of the preconceived notions underlying marketing strategies and begin at a ground level.
+
+
+We begin with a supposition:
+
+
+If marketers can ascribe a value for a members attention, advocacy or data, they can better decide what kind of investment they should make towards them.
+
+
+From a commercial perspective, this type of engagement approach has the potential to be incredibly cost effective. Each team will now have the ability to deliver one to one promotions to a member who has already indicated they want to receive offers, and has provided access to information on their digital wallet.
+
+
+The end result is a transparent, ethical marketing program which gives fans control over their data and rewards them for sharing it. 
+This will disrupt todays paradigm which often leads to unintended consequences such as user backlash.
+
+
+vi) Referrals
+
+
+Referral incentives are a valuable mechanism for attracting new fans. People are 4x more likely to buy if referred by a friend and the lifetime value of referrals is 16% higher than other customers. While teams can amplify a brand’s message with creative industry and strategic deployment they struggle to track the conversion channel from reception to purchase. Over the last decade online influencers have emerged as powerful agents for referring new customers. The current approach to onboarding these influencers however has generally been time consuming and sales labor intensive. Blockchain affords a revolutionary solution to this problem.
+
+
+Using a blockchain referral program, teams are able to track the channel of impressions generated by the influencer and work towards understanding which impressions are most likely to convert. In addition teams would no longer be required to pay up front fees to influencers and risk the possibility of their influence failing to produce a strong ROI.
+
+
+Instead, teams are able to provide a pay as they influence alternative. Further, the influencer economy is open to all who wish to participate. 
+
+
+The influencer is afforded several benefits as well. Blockchain referrals offer a real incentive for them to reach and convert their following into customers and be rewarded on each account of their influence.
+
+
+
+
+Progressive Web Apps, or PWA, is an exciting development in the tech community. This
+article aims to give a basic, introductory overview of what it is and why it’s useful, aimed at
+technical decision makers. We’ve kept the technical jargon to a minimum.
+What is PWA?
+PWA is a way of packaging a mobile application that makes it faster, available offline and
+easily integrated with a mobile device. These apps look and feel like native iOS or Android
+apps. In other words, you would interact with them in exactly the same manner as you would
+with the apps that come standard with your smartphone. As an added benefit, you don’t
+have to download them from an app store, but can find and install them straight from the
+supplier’s website.
+Having been designed specifically with mobile devices and tablets in mind, PWA can be
+placed on your device’s home screen, just like any other app. These apps also don’t get
+stuck while you’re scrolling, since they’re incredibly fast.
+With Push Notifications, PWA encourage user engagement and adds to the immersive user
+experience.
+Why is it Useful?
+Since PWA is highly reliable and fast, users tend to stay on the app for longer, even when
+data connections are limited and unreliable. The experience is seamless, leading to higher
+conversions, especially for online retailers. These apps also load quickly, decreasing the
+load on your store’s server. This means that, unlike traditional mobile apps, your server
+won’t crash during peak times.
+PWA are lightweight, meaning that data usage is highly efficient and that the actual size of
+the app is far smaller. This allows users to browse the app even when connected to mobile
+data and not to wifi, without fear of depleting expensive data bundles.
+Another great benefit, related to the previous point, is that no updates are necessary. The
+app is launched and updated on-use, meaning that all features are loaded from the server
+each time.
+Developing and maintaining a PWA is far less expensive than developing a traditional mobile
+app. One of the reasons for this is that traditional mobile apps must essentially be developed
+twice, once for iOS and once for Android. PWA is developed once and works across all
+devices. Financially, this is a great gain for your business.
+PWA can increase your brand’s searchability and SEO, since these apps are easily indexed
+by search engines. This would broaden your reach compared to using a traditional mobile
+app, thus having a positive effect on revenue generated from online searches.
+Since PWA are enabled with push notifications, users are encouraged to engage with the
+app often, increasing time spent on you site, leading to increased revenue generation.
+In order to understand the vast benefit of switching from traditional mobile apps to PWA,
+we’ve included some statistics from real companies that underpin the benefit of switching
+from traditional mobile apps to PWA:
+Other factors that are positively influenced, include and increase in repeat customer
+conversion rate, increase in revenue (total and per visit) and in user-generated ad revenue,
+as is the case with Twitter Lite.
+From a business perspective, the above reasons build a compelling case for the necessity of
+switching to PWA.
+
+
+
+
+Q1 2019 Blockchain Marketing Technology Landscape 
+
+
+
+
+
+
+
+
+
+
+Section 6: Sports dApp Technical Implementations 
+
+
+i) Architecture
+
+
+The layer one architecture compiles a registry of interactions on the application in an immutable decentralized public ledger. It also contains protocols which validate data on the blockchain, authorizes and codifies the distribution of application contents, and orients gateways to other distributed applications that are layered on top. In addition, a smart contract is used to index individual node activations and appropriate micro level rewards in real time.
+
+
+The second layer reads the application data in the first layer and via another smart contract disburses the balance of funds in accordance with the encoded criterion every time a new block is validated. User behaviour and interactions within the system is captured, logged and run through our proprietary algorithm which combines machine learning and game theory models to deliver personalized content.
+
+
+The third layer regulates a digital right management system(DRM) for accessing an assortment of private ledgers. On achieving a minimum threshold of specific activations users are granted “entitlements keys”, which we recognize as a digitally scarce asset, to access an attendant private ledger.
+A proof-of-stake consensus algorithm guarantees the assignment of these keys by searching the ledger in the second layer for context relevant activations and then running an aggregate score evaluation based on a factor of frequency and time divided by a root minimum. With a proof positive return on this request the appropriate key is sent to the digital wallet of the requesting agent. 
+Adding an additional layer of security to these keys we have integrated a sophisticated randomizing algorithm impacting a dynamic QR code which validates each key.
+
+
+
+
+ii) Distributed Hybrid Stochastic Automata
+
+
+iii) Game Theoretic Model
+
+
+iv) Proofing Growth and Demand
+
+
+A digital sports media engine is used to accelerate growth by harnessing fans social media accounts and a holistic.
+
+
+A tool set developed by Sports dApp, harnesses the power of social media by accounts of fans who attend games and contribute to the online presence of the team.
+new tiers of the DS for better features.
+Day passes, club growth model, and sponsorship model.
+In this model, fans can earn SFT initially from clubs and later from sponsors to redeem game day passes in return for specialized posts via the internal marketing engine.
+
+
+The mechanics of this distribution creates a sustainable growth pattern of bringing new fans to the stadium, retaining  and
+convert a fanbase into a legion of advertisers.
+
+
+The club growth model is started out by obtaining the supply of sports clubs/teams to formally endorse their digital (SuperFan) stadiums.
+Clubs are provided with their own DSME allowing them to pick and choose which incentive propositions they would like to integrate. Clubs can assign tasks (e.g. share embedded links to vote and sign up for digital season passes) and reward fans with experience tokens redeemable for special fan experiences (i.e private meet and greet with a player)
+This will change sports clubs to mobilize their fanbase and harness them into a robust promoting team which will drive higher Digital Season Passholder (DSP) subscriptions.
+These tasks with a branch of data points   for sports clubs to possess direct one on one engagement opportunities with their fans.
+Sports clubs are also provided with a dedicated dashboard on the platform to view key data points such as fan engagement, views and interactions, purchases, potential content preferences and ratings.
+
+
+
+
+Sponsorship of clubs or venues has invariably been a rich endeavor.
+Naming rights of stadiums choose many bucks and contract terms square measure semipermanent.
+With brands trying to find new ways that to interact with fans and customers, our DS economy creates a singular chance for sponsors to “micro-sponsor” our DS or specific digital content
+for short-run periods (Season, Weekend, Match) at a fraction of the standard support prices.
+
+
+This model can inherit impact when the club growth model has been with success deployed.
+With a longtime fanbase and audience, sponsors can need the chance to interact with fans.
+The DS economy permits for a sponsor to interact with a friend base (e.g surveys, observance ads, etc.) by buying game day passes or deeply discounting them by paying
+for a portion of the tickets.
+This creates a replacement “fan and sponsor” relationship wherever sponsors should purchase game day passes for fans to fancy the sport.
+
+
+After SFT square measure issued, sponsors are ready to pay SFT during a range of artistic ways in which permits for various levels of engagement and influence within the digital construction.
+This includes however not restricted to: • emblem placement on Game Day Pass • Social media sharing (E.g.
+status update, shoutout, hashtag etc.) • Naming rights to Digital construction • Sponsored video • emblem bedded graphics around huge moments (E.g.
+Goals, half/full time updates etc.) • Sponsoring of marketplace
+
+
+Sponsors will use fiat to purchase SFT. Sponsors will then spend SFT in the Digital Stadium ecosystem to buy influence and engagement with fans.
+As sponsors pay their SFT at intervals the Digital construction to interact with fans, those tokens are burned and removed from the total token supply in circulation.
+This creates a deflationary pressure on the current token provide which can facilitate stabilize and increase the worth of the entire SFT in circulation.
+To control the particular rate of removal of tokens via the support model, SportsFix can modify the costs of the support pathways consequently to take care of the soundness of SFT
+and sponsorship value.
+
+
+The micro advertising model introduces a pay per view system that will be tailored based on a number of different metrics such as sports genre, demographics, frequency and location.
+This model in the main advantages the little and medium small advertisers that specialise in CPM exposures.
+The advertisers select the expenditure limits and solely being charged by the ads that were shown.
+Advertisements incorporates each banner and video ads that might be tailored on once it ought to be displayed.
+The deep integration software system Development Kit (SDK) permits advertisers to customize the ad expertise together with Inline mechanism to supply and complete a dealings among the browser In-Game expertise.
+
+
+GROUP CONTENT BIDDING Fanbases will unlock content for his or her favorite sports groups and innovative product options through cluster bidding.
+PERSONALISED FAN expertise Fans management their expertise by solely paying for the content and options they need to observe at any purpose in time.
+REDUCE value OF VIEWERSHIP Unbundling of content to single games or smaller digital units supported by a replacement localised micro-sponsorship and micro-advertising model caters towards modified viewing habits.
+1 ON 1 ENGAGEMENT Sports clubs can identify, interact with and reward their most active fans in the Digital Stadium.
+CONTENT STRATEGY SportsFix’s content acquisition strategy are determined by content availability/ attainableness and potential market work, similarly as user input and vote outcomes.
+Replacing mediator agencies and huge media firms, SportsFix aims to transparently outline sports media possession, bidding systems and distribution rules to drive down the cost for the end user.
+Analysing SFT usage across SportsFix’ broad scheme, similarly as on a small region-by-region/ country basis, SportsFix will utilise this data to determine which content is the most popular
+and relevant through the outcome of users’ voting and bidding patterns, therefore influencing future content offerings.
+When utilized in conjunction with sensible contracts, fans collectively can influence content buying transactions without the involvement of intermediaries.
+By ‘disintermediating’ the acquisition of sports content, fans World Health Organization get tokens and vote with them do quite simply ‘paying to view’.
+They are indirectly impacting what content is available on Sportsfix. We believe this user-focused bidding model will redefine the way content platforms are able to deeply understand users’ content preferences, thus allowing SportsFix to continuously and correctly purchase the most desired sports coverage for its users. Moreover, the consistent development of the SportsFix platform to increase user engagement via additional features will sustain and continuously grow the platform’s ecosystem over time.
+
+
+
+
+
+
+
+
+
+
+v) Sports dApp SDK
+
+
+
+
+
+
+Section 7: List of Key Upgrades on Sports dApp
+
+
+
+
+1. Leveraging insights to improve fan experience through the use of deep neural networks and AI 
+
+
+1. Providing internal contextualized modalities corresponding to user preference and interaction on the app over time.
+
+
+1. Incentivizing development of P2P applications by offering ERC-20 tokens purposed for development
+
+
+1. Internal rewards currency earned by participating and purchasing on the application
+
+
+1. Utility tokens as a proof of purchase, verifiable on an updated side ledger. Item becomes a smart property and proof of ownership can be proven with a digital certificate
+
+
+1. Secure unforgeable coupons
+
+
+1. Automating data management assignments through the use of smart contracts
+
+
+1. Decreasing costs of computing storage
+
+
+1. Inexpensive and frictionless payments
+
+
+1. Private digital wallet that contains personal information, inaccessible to anyone but the user unless otherwise permitted
+
+
+1. Transparency of financial interactions on the application
+
+
+Each of the above mentioned capabilities will prove demonstrably more effective to conventional and competitive approaches to to the space. When used as a primary tool to improve both in stadium and remote viewing experience our dApp promises the opportunity to improve upon current digital processes and create a multitude of new revenue streams.

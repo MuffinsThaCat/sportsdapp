@@ -2,9 +2,11 @@ const express = require('express');
 const path = require('path');
 const router = express.Router();
 
-/* GET copany page. */
+/* GET Games Page page. */
 router.get('/', function(req, res, next) {
-    res.sendFile(path.resolve('views/games.html'));
+    res.render('games.hbs', {
+        layout: false
+    });
 });
 
 

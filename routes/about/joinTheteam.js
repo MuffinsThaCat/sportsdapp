@@ -1,9 +1,14 @@
 const express = require('express');
 const path = require('path');
 const router = express.Router();
-/* GET join the team. */
+
+/* GET copany page. */
 router.get('/', function(req, res, next) {
-    res.sendFile(path.resolve('views/join-the-team.html'));
+    res.render('join-the-team.hbs', {
+        layout: false
+    });
 });
+
+
 
 module.exports = router;

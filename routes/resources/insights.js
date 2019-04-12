@@ -2,9 +2,13 @@ const express = require('express');
 const path = require('path');
 const router = express.Router();
 
-/* GET insights page. */
+/* GET copany page. */
 router.get('/', function(req, res, next) {
-    res.sendFile(path.resolve('views/insights.html'));
+    res.render('insights.hbs', {
+        layout: false
+    });
 });
+
+
 
 module.exports = router;

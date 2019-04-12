@@ -4,7 +4,9 @@ const router = express.Router();
 
 /* GET copany page. */
 router.get('/', function(req, res, next) {
-    res.sendFile(path.resolve('views/inerorganization-data-management.html'));
+    res.render('interorganization-data-management.hbs', {
+        layout: false
+    });
 });
 
 

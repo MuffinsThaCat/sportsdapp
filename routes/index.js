@@ -4,7 +4,9 @@ const router = express.Router();
 
 /* GET copany page. */
 router.get('/', function(req, res, next) {
-    res.sendFile(path.resolve('views/index.html'));
+    res.render('index.hbs', {
+        layout: false
+    });
 });
 
 
