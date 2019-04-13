@@ -73,7 +73,7 @@ app.use('/frictionless-payments', fricitionlessPaymentRouter);
 app.use('/games', gamesRouter);
 app.use('/insights', insightsRouter);
 app.use('/join-the-team', joinRouter);
-app.use('/interorganization', interOrganizationRouter);
+app.use('/interorganization-data-management', interOrganizationRouter);
 app.use('/learn', learnRouter);
 app.use('/loyalty-and-rewards', loyaltyRouter);
 app.use('/media-center', mediaRouter);

@@ -21,6 +21,42 @@
     <link rel="stylesheet" id="google-hind-css" href="/css/css.css" type="text/css" media="all">
     <link rel="stylesheet" id="font-awesome-css" href="/css/font-awesome.css" type="text/css" media="all">
     <script type="text/javascript" src="/js/jquery.js"></script>
+    <style>
+        @media only screen and (min-width: 0px) and (max-width: 498px) {
+            .contact_btn {
+                float: left;
+            }
+
+            .learn_btn {
+                float: left;
+            }
+        }
+
+        .print {
+            fill: #346aa9;
+            height: 32px;
+            width: 32px;
+        }
+
+        .pulse {
+            fill: #346aa9;
+            height: 32px;
+            width: 32px;
+        }
+
+        .target {
+            fill: #346aa9;
+            height: 64px;
+            width: 64px;
+        }
+
+        .cart {
+            fill: #346aa9;
+            height: 64px;
+            width: 64px;
+        }
+    </style>
+
     <script>
         window.jQuery || document.write(
             '<script async="async" src="/js/jquery/jquery.min.js?1.11.1"><\/script>'
@@ -145,40 +181,7 @@
                                 </div>
                 </section>
                 <hr>
-                <section class="main-content bottom-callout no-padding shadow-off">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-
-                                <div class="row learn_more">
-                                    <div class="col-md-12">
-
-                                        <div class="special-heading textaligncenter default blue_heading header_title"
-                                            style="padding-bottom: 0px;">
-                                            <h2 class="fancy default"><span>
-
-                                                    <h2>learn More</h2>
-                                                    <div>
-                                                        <a href="/whitepaper"><svg class="external-link"
-                                                                style="fill:dodgerblue; height:32px;height:32px; float:center;">
-
-                                                    </div>
-
-                                                    <hr>
-                                                </span>
-                                            </h2>
-                                        </div>
-
-                                        <p class="textaligncenter">Connect With Us</p>
-                                        <a href="/contact"><button type="button"
-                                                class="btn btn-primary call_to_action">Connect With US</button></a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                {{> whitepaper}}
             </main>
             <!-- /.main -->
         </div>
@@ -186,7 +189,7 @@
     </div>
     <!-- /.wrap -->
     {{> footer}}
-    
+
     <!--replace with a cdn for faster page-load-->
 
     <script type='text/javascript' src='/js/script.min.js'></script>
@@ -202,9 +205,6 @@
     <script type='text/javascript'>
     </script>
     <script type='text/javascript' src='/js/scripts.js?ver=5.0.3'></script>
-
-
-</body>
 </body>
 
 </html>

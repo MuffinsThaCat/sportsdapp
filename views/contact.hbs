@@ -22,6 +22,17 @@
     <link rel="stylesheet" id="google-hind-css" href="/css/css.css" type="text/css" media="all">
     <link rel="stylesheet" id="font-awesome-css" href="/css/font-awesome.css" type="text/css" media="all">
     <script type="text/javascript" src="js/jquery.js"></script>
+     <style>
+        @media only screen and (min-width: 0px) and (max-width: 498px) {
+            .contact_btn {
+                float: left;
+            }
+
+            .learn_btn {
+                float: left;
+            }
+        }
+    </style>
     <script>
         window.jQuery || document.write(
             '<script async="async" src="js/jquery/jquery.min.js?1.11.1"><\/script>'
@@ -29,95 +40,9 @@
     </script>
 </head>
 
-<body class="page-template page-template-template-full-width page-template-template-full-width-php page page-id-14808 page-child parent-pageid-14807 page-banks">
-
-    <header class="banner navbar navbar-default navbar-fixed-top initial_header" role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <div class="nav_lines">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </div>
-                    <div class="nav_x"><img class="blue_x" src="/images/x_icon_blue.svg"></div>
-                    <div class="nav_x"><img class="white_x" src="/images/x_icon.svg"></div>
-                </button>
-                <a class="navbar-brand" href="/"><img class="logo" src="/images/Logo.jpg" src="/images/Logo.jpg" style="height:70px;width:70px; border-radius: 5px;"></a>
-            </div>
-            <nav class="collapse navbar-collapse" role="navigation">
-                <ul id="menu-primary-navigation" class="nav navbar-nav">
-                    <li class="dropdown menu-ripplenet"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/">SportsDapp
-                            <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li class="menu-global-payments"><a href="/smart-ticketing/">Smart Ticketing</a>
-                            </li>
-                            <li class="menu-on-demand-liquidity"><a href="/loyalty-and-rewards/">Loyalty
-                                    & Rewards</a></li>
-                            <li class="menu-join-the-network"><a href="/fan-engagement/">Fan
-                                    Engagement</a></li>
-                            <li class="menu-join-the-network"><a href="/games/">Games</a></li>
-                            <li class="menu-join-the-network"><a href="/road-map/">Road Map</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown menu-use-cases"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/use-cases/">Use
-                            Cases <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li class="menu-overview"><a href="/overview/">Overview</a></li>
-                            <li class="menu-banks"><a href="/blockchain-rewards/">Blockchain
-                                    Rewards</a></li>
-                            <li class="menu-payment-providers"><a href="/frictionless-payments/">Frictionless
-                                    Payment</a></li>
-                            <li class="menu-digital-asset-exchanges"><a href="/interorganization-data-management/">Inter-organizational
-                                    Data Management</a>
-                            </li>
-                            <li class="menu-digital-asset-exchanges"><a href="/blockchain-and-iot/">Blockchain
-                                    and IOT </a>
-                            </li>
-                            <li class="menu-digital-asset-exchanges"><a href="/digital-id/">Digital
-                                    Id</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown menu-resources"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/">Resources
-                            <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li class="menu-insights"><a href="/learn/">Learn</a></li>
-                            <li class="menu-collateral"><a href="/insights/">Insights</a></li>
-                            <li class="menu-press-center"><a href="/media-center/">Media</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown menu-about"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/company/">About
-                            <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li class="menu-our-company"><a href="/roster/">Roster</a></li>
-                            <li class="menu-careers"><a href="/company/">Company</a></li>
-                            <li class="menu-sbi-ripple-asia"><a href="/join-the-team/">Join
-                                    The Team</a></li>
-                            <li class="menu-ripple-for-good"><a href="/advisors/">Advisors</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-contact"><a href="/contact">Contact</a></li>
-                </ul>
-                <div id="searchForm">
-                    <div class="searchWrap">
-                        <form role="search" method="get" autocomplete="off" class="search-form form-inline" action="/">
-                            <label class="sr-only">Search for:</label>
-                            <div class="input-group">
-                                <input id="search" type="search" value="" name="s" class="search-field form-control" placeholder="Search SportsDapp">
-                                <span class="input-group-btn">
-                                    <button id="search_submit" type="submit" class="search-submit btn btn-default"><i
-                                            class="fa fa-search"></i></button>
-                                </span>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
+<body
+    class="page-template page-template-template-full-width page-template-template-full-width-php page page-id-14808 page-child parent-pageid-14807 page-banks">
+    {{> navbar}}
     <div class="wrap container cta_text">
         <div class="row">
             <div class="col-md-12">
@@ -151,32 +76,35 @@
                                     <div class="col-md-12"><img class="preload" src="images/download.png">
                                         <div role="form" class="wpcf7" id="wpcf7-f5478-p5479-o1" dir="ltr" lang="en-US">
                                             <div class="screen-reader-response"></div>
-                                            <form action="/contact/#wpcf7-f5478-p5479-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                                            <form action="/contact/#wpcf7-f5478-p5479-o1" method="post"
+                                                class="wpcf7-form" novalidate="novalidate">
                                                 <div style="display: none;">
                                                     <input type="hidden" name="_wpcf7" value="5478">
                                                     <input type="hidden" name="_wpcf7_version" value="5.0.3">
                                                     <input type="hidden" name="_wpcf7_locale" value="en_US">
-                                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5478-p5479-o1">
+                                                    <input type="hidden" name="_wpcf7_unit_tag"
+                                                        value="wpcf7-f5478-p5479-o1">
                                                     <input type="hidden" name="_wpcf7_container_post" value="5479">
                                                 </div>
                                                 <div class="purpose-header-wrapper">
-                                                    <div class="purpose-header"><span class="wpcf7-form-control wpcf7-radio mail-to-radio"><span
+                                                    <div class="purpose-header"><span
+                                                            class="wpcf7-form-control wpcf7-radio mail-to-radio"><span
                                                                 class="wpcf7-list-item first"><label><input type="radio"
                                                                         name="mail-to" value="Support"
                                                                         checked="checked"><span
                                                                         class="wpcf7-list-item-label">Support</span></label>
-                                                        </span><span class="wpcf7-list-item"><label><input
+                                                            </span><span class="wpcf7-list-item"><label><input
                                                                         type="radio" name="mail-to"
                                                                         value="Media &amp; Press"><span
                                                                         class="wpcf7-list-item-label">Media
                                                                         &amp; Press</span></label>
-                                                        </span><span class="wpcf7-list-item"><label><input
+                                                            </span><span class="wpcf7-list-item"><label><input
                                                                         type="radio" name="mail-to" value="XRP"><span
                                                                         class="wpcf7-list-item-label">XRP</span></label>
-                                                        </span><span class="wpcf7-list-item last"><label><input
+                                                            </span><span class="wpcf7-list-item last"><label><input
                                                                         type="radio" name="mail-to" value="Sales"><span
                                                                         class="wpcf7-list-item-label">Sales</span></label>
-                                                        </span>
+                                                            </span>
                                                         </span>
                                                     </div>
                                                 </div>
@@ -187,7 +115,8 @@
                                                             <p></p>
                                                             <div class="col-md-3 col-sm-12 media-box">
                                                                 <div class="press_media">
-                                                                    <img src="/images/icon-trisk.png" class="img-responsive logos">
+                                                                    <img src="/images/icon-trisk.png"
+                                                                        class="img-responsive logos">
                                                                     <p></p>
                                                                     <h5 class="textaligncenter">Logos</h5>
                                                                     <p></p>
@@ -195,10 +124,13 @@
                                                                 <p></p>
                                                             </div>
                                                         </a>
-                                                        <a download="" href="/themes/ripple-beta/assets/img/press/headshots.zip" class="download">
+                                                        <a download=""
+                                                            href="/themes/ripple-beta/assets/img/press/headshots.zip"
+                                                            class="download">
                                                             <div class="col-md-3 col-sm-12 media-box">
                                                                 <div class="press_media">
-                                                                    <img src="/images/icon-person.png" class="img-responsive logos">
+                                                                    <img src="/images/icon-person.png"
+                                                                        class="img-responsive logos">
                                                                     <p></p>
                                                                     <h5 class="textaligncenter">Headshots</h5>
                                                                     <p></p>
@@ -209,7 +141,8 @@
                                                         <a href="/files/ripplenet_brochure.pdf" class="download">
                                                             <div class="col-md-3 col-sm-12 media-box">
                                                                 <div class="press_media">
-                                                                    <img src="/images/icon-page.png" class="multiple-line img-responsive logos">
+                                                                    <img src="/images/icon-page.png"
+                                                                        class="multiple-line img-responsive logos">
                                                                     <p></p>
                                                                     <h5 class="textaligncenter">Overview</h5>
                                                                     <p></p>
@@ -218,9 +151,11 @@
                                                             </div>
                                                         </a>
                                                         <a href="/files/brand-guidelines.pdf" class="download">
-                                                            <div class="col-md-3 col-sm-12 media-box multi-line brand-guidelines-box">
+                                                            <div
+                                                                class="col-md-3 col-sm-12 media-box multi-line brand-guidelines-box">
                                                                 <div class="press_media">
-                                                                    <img src="/images/icon-pages.png" class="img-responsive logos">
+                                                                    <img src="/images/icon-pages.png"
+                                                                        class="img-responsive logos">
                                                                     <p></p>
                                                                     <h5 class="textaligncenter">Brand Guidelines</h5>
                                                                     <p></p>
@@ -229,28 +164,46 @@
                                                             </div>
                                                         </a>
                                                     </div>
-                                                    <p><img class="bottom-bar img-responsive" src="/images/bottom-media-bar.png">
+                                                    <p><img class="bottom-bar img-responsive"
+                                                            src="/images/bottom-media-bar.png">
                                                     </p>
                                                 </div>
                                                 <div class="faq-accordion" id="accordion2" style="display: none;">
                                                     <div class="accordion-group">
                                                         <div class="accordion-heading">
-                                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                                data-parent="#accordion2" href="#collapseOne">
                                                                 <p></p>
                                                                 <h4>How do I buy XRP?</h4>
                                                             </a>
                                                             <p>
-                                                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> </a>
+                                                                <a class="accordion-toggle collapsed"
+                                                                    data-toggle="collapse" data-parent="#accordion2"
+                                                                    href="#collapseOne"> </a>
                                                             </p>
                                                         </div>
                                                         <div id="collapseOne" class="accordion-body collapse">
                                                             <div class="accordion-inner">
-                                                                <p>XRP is available for purchase on more than <a target="_blank" href="/currencies/ripple/#markets">60
-                                                                        digital asset exchanges</a> worldwide, many of which are <a target="_blank" href="https://localhost:8888/xrp/buy-xrp/">listed
-                                                                        on this page</a>. Please note that Ripple does not endorse, recommend, or make any representations with respect to any gateways or exchanges, including those listed on its website.
-                                                                    Every exchange has a different process for purchasing XRP.</p>
-                                                                <p>If you’ve already purchased XRP and have a question about your purchase, then please reach out to the exchange directly. In order to maintain healthy XRP markets, it’s a top priority for
-                                                                    Ripple to have XRP listed on top digital asset exchanges, making it broadly accessible worldwide. Ripple has dedicated resources to the initiative so you can expect ongoing progress toward
+                                                                <p>XRP is available for purchase on more than <a
+                                                                        target="_blank"
+                                                                        href="/currencies/ripple/#markets">60
+                                                                        digital asset exchanges</a> worldwide, many of
+                                                                    which are <a target="_blank"
+                                                                        href="https://localhost:8888/xrp/buy-xrp/">listed
+                                                                        on this page</a>. Please note that Ripple does
+                                                                    not endorse, recommend, or make any representations
+                                                                    with respect to any gateways or exchanges, including
+                                                                    those listed on its website.
+                                                                    Every exchange has a different process for
+                                                                    purchasing XRP.</p>
+                                                                <p>If you’ve already purchased XRP and have a question
+                                                                    about your purchase, then please reach out to the
+                                                                    exchange directly. In order to maintain healthy XRP
+                                                                    markets, it’s a top priority for
+                                                                    Ripple to have XRP listed on top digital asset
+                                                                    exchanges, making it broadly accessible worldwide.
+                                                                    Ripple has dedicated resources to the initiative so
+                                                                    you can expect ongoing progress toward
                                                                     increasing global liquidity.
                                                                 </p>
                                                                 <p></p>
@@ -261,19 +214,30 @@
                                                     </div>
                                                     <div class="accordion-group">
                                                         <div class="accordion-heading">
-                                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                                data-parent="#accordion2" href="#collapseTwo">
                                                                 <p></p>
-                                                                <h4>I’ve reached out to my exchange and have not received a response. What should I do next?</h4>
+                                                                <h4>I’ve reached out to my exchange and have not
+                                                                    received a response. What should I do next?</h4>
                                                             </a>
                                                             <p>
-                                                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> </a>
+                                                                <a class="accordion-toggle collapsed"
+                                                                    data-toggle="collapse" data-parent="#accordion2"
+                                                                    href="#collapseTwo"> </a>
                                                             </p>
                                                         </div>
                                                         <div id="collapseTwo" class="accordion-body collapse">
                                                             <div class="accordion-inner">
-                                                                <p>We’re sorry to hear about your experience. Increased traffic and support requests may cause delays at exchanges. While this can be frustrating, we urge you to wait for a response from the
-                                                                    exchange while its support team works to resolve your issue. </p>
-                                                                <p>Please note: As gateways and exchanges are independently owned and operated businesses, Ripple has no power or authority to escalate or resolve issues at individual exchanges.</p>
+                                                                <p>We’re sorry to hear about your experience. Increased
+                                                                    traffic and support requests may cause delays at
+                                                                    exchanges. While this can be frustrating, we urge
+                                                                    you to wait for a response from the
+                                                                    exchange while its support team works to resolve
+                                                                    your issue. </p>
+                                                                <p>Please note: As gateways and exchanges are
+                                                                    independently owned and operated businesses, Ripple
+                                                                    has no power or authority to escalate or resolve
+                                                                    issues at individual exchanges.</p>
                                                                 <p></p>
                                                             </div>
                                                             <p></p>
@@ -282,12 +246,16 @@
                                                     </div>
                                                     <div class="accordion-group">
                                                         <div class="accordion-heading">
-                                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                                data-parent="#accordion2" href="#collapseThree">
                                                                 <p></p>
-                                                                <h4>I’ve sent XRP via an exchange/gateway, but it didn’t arrive. What do I do next?</h4>
+                                                                <h4>I’ve sent XRP via an exchange/gateway, but it didn’t
+                                                                    arrive. What do I do next?</h4>
                                                             </a>
                                                             <p>
-                                                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                                                                <a class="accordion-toggle collapsed"
+                                                                    data-toggle="collapse" data-parent="#accordion2"
+                                                                    href="#collapseThree">
                                                                 </a>
                                                             </p>
                                                         </div>
@@ -301,18 +269,26 @@
                                                     </div>
                                                     <div class="accordion-group">
                                                         <div class="accordion-heading">
-                                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                                data-parent="#accordion2" href="#collapseFour">
                                                                 <p></p>
                                                                 <h4>My XRP was stolen. What do I do?</h4>
                                                             </a>
                                                             <p>
-                                                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour"> </a>
+                                                                <a class="accordion-toggle collapsed"
+                                                                    data-toggle="collapse" data-parent="#accordion2"
+                                                                    href="#collapseFour"> </a>
                                                             </p>
                                                         </div>
                                                         <div id="collapseFour" class="accordion-body collapse">
                                                             <div class="accordion-inner">
-                                                                <p>We’re sorry to hear about your experience. We encourage you to file a complaint through the <a href="https://www.ic3.gov/complaint/default.aspx/" target="_blank">Federal Bureau of Investigation
-                                                                        Internet Crime Complaint Center</a> or with local enforcement. In addition, please notify your exchange and/or wallet provider.</p>
+                                                                <p>We’re sorry to hear about your experience. We
+                                                                    encourage you to file a complaint through the <a
+                                                                        href="https://www.ic3.gov/complaint/default.aspx/"
+                                                                        target="_blank">Federal Bureau of Investigation
+                                                                        Internet Crime Complaint Center</a> or with
+                                                                    local enforcement. In addition, please notify your
+                                                                    exchange and/or wallet provider.</p>
                                                                 <p></p>
                                                             </div>
                                                             <p></p>
@@ -321,18 +297,25 @@
                                                     </div>
                                                     <div class="accordion-group">
                                                         <div class="accordion-heading">
-                                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
+                                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                                data-parent="#accordion2" href="#collapseFive">
                                                                 <p></p>
                                                                 <h4>How do I migrate my Ripple Trade account?</h4>
                                                             </a>
                                                             <p>
-                                                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive"> </a>
+                                                                <a class="accordion-toggle collapsed"
+                                                                    data-toggle="collapse" data-parent="#accordion2"
+                                                                    href="#collapseFive"> </a>
                                                             </p>
                                                         </div>
                                                         <div id="collapseFive" class="accordion-body collapse">
                                                             <div class="accordion-inner">
-                                                                <p>Thank you for using Ripple Trade. Please <a target="_blank" href="https://localhost:8888/files/rt_migration_faq.pdf">see
-                                                                        this document</a> for instructions on how to migrate your Ripple Trade account to another wallet provider of your choice. </p>
+                                                                <p>Thank you for using Ripple Trade. Please <a
+                                                                        target="_blank"
+                                                                        href="https://localhost:8888/files/rt_migration_faq.pdf">see
+                                                                        this document</a> for instructions on how to
+                                                                    migrate your Ripple Trade account to another wallet
+                                                                    provider of your choice. </p>
                                                                 <p></p>
                                                             </div>
                                                             <p></p>
@@ -341,19 +324,26 @@
                                                     </div>
                                                     <div class="accordion-group">
                                                         <div class="accordion-heading">
-                                                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">
+                                                            <a class="accordion-toggle collapsed" data-toggle="collapse"
+                                                                data-parent="#accordion2" href="#collapseSix">
                                                                 <p></p>
                                                                 <h4>I’ve lost my Ripple Trade password. What do I do?
                                                                 </h4>
                                                             </a>
                                                             <p>
-                                                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix"> </a>
+                                                                <a class="accordion-toggle collapsed"
+                                                                    data-toggle="collapse" data-parent="#accordion2"
+                                                                    href="#collapseSix"> </a>
                                                             </p>
                                                         </div>
                                                         <div id="collapseSix" class="accordion-body collapse">
                                                             <div class="accordion-inner">
-                                                                <p>If you lost your password, but still have your secret key, you can still use <a target="_blank" href="https://localhost:8888/files/rt_migration_faq.pdf">the
-                                                                        migration document</a> and follow the steps for “What if I do not want my identity information transferred to GateHub?”</p>
+                                                                <p>If you lost your password, but still have your secret
+                                                                    key, you can still use <a target="_blank"
+                                                                        href="https://localhost:8888/files/rt_migration_faq.pdf">the
+                                                                        migration document</a> and follow the steps for
+                                                                    “What if I do not want my identity information
+                                                                    transferred to GateHub?”</p>
                                                                 <p></p>
                                                             </div>
                                                             <p></p>
@@ -371,8 +361,11 @@
                                                     </p>
                                                     <div class="faq-bottom">
                                                         <h3>Email us</h3>
-                                                        <p>Uur dedicated team is ready to answer your questions, or you can read our full <a target="_blank" href="faq/">FAQ’s</a><br></p>
-                                                        <p><a class="mail-link" href="mailto:support@sportsdapp.com">support@sportsdapp.com</a><br>
+                                                        <p>Uur dedicated team is ready to answer your questions, or you
+                                                            can read our full <a target="_blank"
+                                                                href="faq/">FAQ’s</a><br></p>
+                                                        <p><a class="mail-link"
+                                                                href="mailto:support@sportsdapp.com">support@sportsdapp.com</a><br>
                                                         </p>
                                                         <p>Please allow at least 2 weeks for reply</p>
                                                         <p></p>
@@ -380,8 +373,10 @@
                                                 </div>
                                                 <div class="support-bottom" style="display: block;">
                                                     <h3>Email us</h3>
-                                                    <p>Our dedicated team is ready to answer your questions, or you can read our <a target="_blank" href="faq/">FAQs</a><br></p>
-                                                    <p class="mail-to"><a class="mail-link" href="mailto:support@sportsdapp.com">support@sportsdapp.com</a>
+                                                    <p>Our dedicated team is ready to answer your questions, or you can
+                                                        read our <a target="_blank" href="faq/">FAQs</a><br></p>
+                                                    <p class="mail-to"><a class="mail-link"
+                                                            href="mailto:support@sportsdapp.com">support@sportsdapp.com</a>
                                                     </p>
                                                     <p class="time">Please allow at least 3 - 5 days for a reply</p>
                                                     <p></p>
@@ -390,13 +385,32 @@
                                                     <p></p>
                                                     <div class="row">
                                                         <div class="all-required">All fields are required.</div>
-                                                        <div class="col-xs-12 col-sm-6"><input type="text" name="first-name" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required invalid-input" aria-required="true" aria-invalid="false"><span class="floating-label">First
-                                                                name</span><span class="error-message invalid-input"></span></div>
-                                                        <div class="col-xs-12 col-sm-6"><input type="text" name="your-name" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required invalid-input" aria-required="true" aria-invalid="false"><span class="floating-label">Last
-                                                                name</span><span class="error-message invalid-input"></span></div>
-                                                        <div class="col-xs-12 col-sm-6"><input type="email" name="your-email" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email invalid-input" aria-required="true" aria-invalid="false">                                                            <span class="floating-label">Business
-                                                                email address</span><span class="error-message invalid-input"></span></div>
-                                                        <div class="col-xs-12 col-sm-6 no-media selectdiv"><select name="country_name" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required minimal" id="countrySelect" aria-required="true" aria-invalid="false">
+                                                        <div class="col-xs-12 col-sm-6"><input type="text"
+                                                                name="first-name" size="40"
+                                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required invalid-input"
+                                                                aria-required="true" aria-invalid="false"><span
+                                                                class="floating-label">First
+                                                                name</span><span
+                                                                class="error-message invalid-input"></span></div>
+                                                        <div class="col-xs-12 col-sm-6"><input type="text"
+                                                                name="your-name" size="40"
+                                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required invalid-input"
+                                                                aria-required="true" aria-invalid="false"><span
+                                                                class="floating-label">Last
+                                                                name</span><span
+                                                                class="error-message invalid-input"></span></div>
+                                                        <div class="col-xs-12 col-sm-6"><input type="email"
+                                                                name="your-email" size="40"
+                                                                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email invalid-input"
+                                                                aria-required="true" aria-invalid="false"> <span
+                                                                class="floating-label">Business
+                                                                email address</span><span
+                                                                class="error-message invalid-input"></span></div>
+                                                        <div class="col-xs-12 col-sm-6 no-media selectdiv"><select
+                                                                name="country_name"
+                                                                class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required minimal"
+                                                                id="countrySelect" aria-required="true"
+                                                                aria-invalid="false">
                                                                 <option value="" selected="selected">Country</option>
                                                                 <option value="Afghanistan">Afghanistan</option>
                                                                 <option value="Aland Islands">Aland Islands</option>
@@ -687,10 +701,18 @@
                                                                 <option value="Zambia">Zambia</option>
                                                                 <option value="Zimbabwe">Zimbabwe</option>
                                                             </select><i class="fa fa-angle-down"></i></div>
-                                                        <div class="col-xs-12 col-sm-6 "><input type="text" name="your_company" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required invalid-input" aria-required="true" aria-invalid="false"><span class="floating-label">Organization</span>
+                                                        <div class="col-xs-12 col-sm-6 "><input type="text"
+                                                                name="your_company" size="40"
+                                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required invalid-input"
+                                                                aria-required="true" aria-invalid="false"><span
+                                                                class="floating-label">Organization</span>
                                                             <span class="error-message invalid-input"></span>
                                                         </div>
-                                                        <div class="col-xs-12 col-sm-6 no-media selectdiv"><select name="Product_Interest" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required minimal" id="organizationSelect" aria-required="true" aria-invalid="false">
+                                                        <div class="col-xs-12 col-sm-6 no-media selectdiv"><select
+                                                                name="Product_Interest"
+                                                                class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required minimal"
+                                                                id="organizationSelect" aria-required="true"
+                                                                aria-invalid="false">
                                                                 <option value="" selected="selected">Organization Type
                                                                 </option>
                                                                 <option value="Bank">Bank</option>
@@ -703,26 +725,43 @@
                                                                 <option value="Individual">Individual</option>
                                                                 <option value="Other">Other</option>
                                                             </select><i class="fa fa-angle-down"></i></div>
-                                                        <div class="col-xs-12 col-sm-12 no-media"><input type="tel" name="phone" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel invalid-input" aria-required="true" aria-invalid="false">
+                                                        <div class="col-xs-12 col-sm-12 no-media"><input type="tel"
+                                                                name="phone" size="40"
+                                                                class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel invalid-input"
+                                                                aria-required="true" aria-invalid="false">
                                                             <span class="floating-label">Phone Number
-                                                            </span><span class="error-message-phone invalid-input"></span></div>
+                                                            </span><span
+                                                                class="error-message-phone invalid-input"></span></div>
                                                         <p></p>
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-xs-12">
-                                                            <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea invalid-input" aria-invalid="false"></textarea><span class="floating-label">Message
+                                                            <textarea name="your-message" cols="40" rows="10"
+                                                                class="wpcf7-form-control wpcf7-textarea invalid-input"
+                                                                aria-invalid="false"></textarea><span
+                                                                class="floating-label">Message
                                                                 <p></p></span></div>
                                                         <p></p>
                                                     </div>
                                                     <p><br></p>
                                                     <div class="row">
-                                                        <p class="sending-error">There was an error sending your message, please try again.</p>
+                                                        <p class="sending-error">There was an error sending your
+                                                            message, please try again.</p>
                                                         <div class="col-sm-6 col-xs-12 recaptcha">
                                                             <div class="wpcf7-form-control-wrap">
-                                                                <div data-sitekey="6LfcrysUAAAAAL0jKrh_LSCta38_91K-01aHQYSb" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha">
+                                                                <div data-sitekey="6LfcrysUAAAAAL0jKrh_LSCta38_91K-01aHQYSb"
+                                                                    class="wpcf7-form-control g-recaptcha wpcf7-recaptcha">
                                                                     <div style="width: 304px; height: 78px;">
-                                                                        <div><iframe src="/images/anchor.html" role="presentation" name="a-k86rcaa13j97" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
-                                                                                width="304" height="78" frameborder="0"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                                                                        <div><iframe src="/images/anchor.html"
+                                                                                role="presentation"
+                                                                                name="a-k86rcaa13j97" scrolling="no"
+                                                                                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                                                                                width="304" height="78"
+                                                                                frameborder="0"></iframe></div><textarea
+                                                                            id="g-recaptcha-response"
+                                                                            name="g-recaptcha-response"
+                                                                            class="g-recaptcha-response"
+                                                                            style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
                                                                     </div>
                                                                 </div>
                                                                 <noscript>
@@ -750,9 +789,13 @@
                                                                 </noscript>
                                                             </div>
                                                         </div>
-                                                        <div class="col-sm-6 col-xs-12"><input type="submit" value="Contact Sales" class="wpcf7-form-control wpcf7-submit submit"><span class="ajax-loader"></span></div>
+                                                        <div class="col-sm-6 col-xs-12"><input type="submit"
+                                                                value="Contact Sales"
+                                                                class="wpcf7-form-control wpcf7-submit submit"><span
+                                                                class="ajax-loader"></span></div>
                                                     </div>
-                                                    <p class="contact-disclaimer">By providing the above information, you agree to the SportsDapp <a href="/terms-of-use/">Terms
+                                                    <p class="contact-disclaimer">By providing the above information,
+                                                        you agree to the SportsDapp <a href="/terms-of-use/">Terms
                                                             of Use</a> and <a href="/privacy-policy/">Privacy
                                                             Policy</a>.</p>
                                                 </div>
@@ -787,64 +830,10 @@
         <!-- /.content -->
     </div>
     <!-- /.wrap -->
-    <footer class="content-info " role="contentinfo ">
-        <div class="container ">
-            <div class="row ">
-
-                <section class="col-sm-3 widget nav_menu-3 widget_nav_menu ">
-                    <h4>Resources
-                        <hr>
-                    </h4>
-                    <ul id="menu-resources " class="menu ">
-                        <li class="menu-xrp-overview "><a href="/learn/ ">Learn</a></li>
-                        <li class="menu-how-to-buy-xrp "><a href="/insights/ ">Insight</a></li>
-                        <li class="menu-insights "><a href="/media-center/ ">Media</a></li>
-                    </ul>
-                </section>
-                <section class="col-sm-3 widget nav_menu-2 widget_nav_menu ">
-                    <h4>About
-                        <hr>
-                    </h4>
-                    <ul id="menu-company-footer " class="menu ">
-                        <li class="menu-our-company "><a href="/roster/ ">Roster</a></li>
-                        <li class="menu-careers "><a href="/company/ ">Company</a></li>
-                        <li class="menu-ripplenet-committee "><a href="/join/ ">Join
-                                The Team</a></li>
-                        <li class="menu-sbi-ripple-asia "><a href="/advisors/ ">Advisors</a>
-                        </li>
-
-                    </ul>
-                </section>
-                <div class="col-sm-12 absolute_bottom_footer ">
-                    <div class="col-sm-8 ">
-                        <span>&copy; 2013 - 2019 sportsDapp, All Rights Reserved.</span>
-                        <span><a href="/terms-of-use/ ">Terms</a></span>
-                        <span><a href="/privacy-policy/ ">Privacy</a></span>
-                        <span id="translation "></span>
-                    </div>
-                    <div class="col-sm-4 ">
-                        <div class="pull_right ">
-                            <li id="text-9 " class="widget widget_text ">
-                                <div class="textwidget ">
-                                    <ul class="social-iconer list-inline ">
-                                        <li><a class="fber " target="blank " href="https://www.facebook.com/Sportsdapp "><i
-                                                    class="fa fa-facebook fa-2x "></i></a></li>
-                                        <li><a class="twer " target="blank " href="https://twitter.com/sportsdapp"><i
-                                                    class="fa fa-twitter fa-2x "></i></a></li>
-                                        <li><a class="linkedin " target="blank " href="https://www.linkedin.com/sportsdapp/ "><i
-                                                    class="fa fa-linkedin fa-2x "></i></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    {{> footer}}
     <script type="text/javascript">
         var recaptchaWidgets = [];
-        var recaptchaCallback = function() {
+        var recaptchaCallback = function () {
             var forms = document.getElementsByTagName('form');
             var pattern = /(^|\s)g-recaptcha(\s|$)/;
 
@@ -884,7 +873,7 @@
             }
         };
 
-        document.addEventListener('wpcf7submit', function(event) {
+        document.addEventListener('wpcf7submit', function (event) {
             switch (event.detail.status) {
                 case 'spam':
                 case 'mail_sent':
@@ -896,59 +885,6 @@
         }, false);
     </script>
 
-    <footer class="content-info " role="contentinfo ">
-        <div class="container ">
-            <div class="row ">
-
-                <section class="col-sm-3 widget nav_menu-3 widget_nav_menu ">
-                    <h4>Resources
-                        <hr>
-                    </h4>
-                    <ul id="menu-resources " class="menu ">
-                        <li class="menu-xrp-overview "><a href="/learn/ ">Learn</a></li>
-                        <li class="menu-how-to-buy-xrp "><a href="/insights/ ">Insight</a></li>
-                        <li class="menu-insights "><a href="/media-center/ ">Media</a></li>
-                    </ul>
-                </section>
-                <section class="col-sm-3 widget nav_menu-2 widget_nav_menu ">
-                    <h4>About
-                        <hr>
-                    </h4>
-                    <ul id="menu-company-footer " class="menu ">
-                        <li class="menu-our-company "><a href="/roster/ ">Roster</a></li>
-                        <li class="menu-careers "><a href="/company/ ">Company</a></li>
-                        <li class="menu-ripplenet-committee "><a href="/join/ ">Join
-                            The Team</a></li>
-                        <li class="menu-sbi-ripple-asia "><a href="/advisors/ ">Advisors</a>
-                        </li>
-
-                    </ul>
-                </section>
-                <div class="col-sm-12 absolute_bottom_footer ">
-                    <div class="col-sm-8 ">
-                        <span>&copy; 2013 - 2019 sportsDapp, All Rights Reserved.</span>
-                        <span><a href="/terms-of-use/ ">Terms</a></span>
-                        <span><a href="/privacy-policy/ ">Privacy</a></span>
-                        <span id="translation "></span>
-                    </div>
-                    <div class="col-sm-4 ">
-                        <div class="pull_right ">
-                            <li id="text-9 " class="widget widget_text ">
-                                <div class="textwidget ">
-                                    <ul class="social-iconer list-inline ">
-                                        <li><a class="fber " target="blank " href="https://www.facebook.com/Sportsdapp "><i class="fa fa-facebook fa-2x "></i></a></li>
-                                        <li><a class="twer " target="blank " href="https://twitter.com/sportsdapp"><i class="fa fa-twitter fa-2x "></i></a></li>
-                                        <li><a class="linkedin " target="blank " href="https://www.linkedin.com/sportsdapp/ "><i
-                                                class="fa fa-linkedin fa-2x "></i></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
 
     <!--replace with a cdn for faster page-load-->
 

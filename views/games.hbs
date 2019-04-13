@@ -32,18 +32,52 @@
         )
     </script>
     <style>
+        @media only screen and (min-width: 0px) and (max-width: 498px) {
+            .contact_btn {
+                float: left;
+            }
+
+            .learn_btn {
+                float: left;
+            }
+        }
+
+        .print {
+            fill: #346aa9;
+            height: 32px;
+            width: 32px;
+        }
+
+        .pulse {
+            fill: #346aa9;
+            height: 32px;
+            width: 32px;
+        }
+
+        .target {
+            fill: #346aa9;
+            height: 64px;
+            width: 64px;
+        }
+
         .cart {
             fill: #346aa9;
             height: 64px;
             width: 64px;
         }
-        
+   
+        .cart {
+            fill: #346aa9;
+            height: 64px;
+            width: 64px;
+        }
+
         .graph {
             fill: #346aa9;
             height: 64px;
             width: 64px;
         }
-        
+
         .cog {
             fill: #346aa9;
             height: 64px;
@@ -52,8 +86,9 @@
     </style>
 </head>
 
-<body class="page-template page-template-template-full-width page-template-template-full-width-php page page-id-14808 page-child parent-pageid-14807 page-banks">
-{{> navbar}}
+<body
+    class="page-template page-template-template-full-width page-template-template-full-width-php page page-id-14808 page-child parent-pageid-14807 page-banks">
+    {{> navbar}}
     <div class="wrap container cta_text">
         <div class="row">
             <div class="col-md-12">
@@ -86,7 +121,8 @@
                         <div class="row">
                             <div class="col-md-12">
 
-                                <div class="special-heading textaligncenter default blue_heading header_title" style="padding-bottom: 30px;">
+                                <div class="special-heading textaligncenter default blue_heading header_title"
+                                    style="padding-bottom: 30px;">
                                     <h2 class="fancy default"><span>
                                             <h2>Avatars</h2>
                                             <hr>
@@ -146,7 +182,8 @@
                             <div class="row">
                                 <div class="col-md-12">
 
-                                    <div class="special-heading textaligncenter default blue_heading header_title" style="padding-bottom: 30px;">
+                                    <div class="special-heading textaligncenter default blue_heading header_title"
+                                        style="padding-bottom: 30px;">
                                         <h2 class="fancy default"><span>
                                                 <h2>Leaderboard (Invisions mock up)</h2>
                                                 <hr>
@@ -164,7 +201,8 @@
                         <div class="row">
                             <div class="col-md-12">
 
-                                <div class="special-heading textaligncenter default blue_heading header_title" style="padding-bottom: 30px;">
+                                <div class="special-heading textaligncenter default blue_heading header_title"
+                                    style="padding-bottom: 30px;">
                                     <h2 class="fancy default"><span>
                                             <h2>Coming Soon</h2>
                                             <hr>
@@ -174,28 +212,29 @@
 
                                 <div class="row impact">
                                     <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <img class="why_icn img-responsive" src="">
+                                        <img id="bounceleft" class="why_icn img-responsive" src="/images/baseball.jpg"style="border-radius:50px;">
                                         <div class="special-heading textaligncenter default">
                                             <h5>Baseball Game</h5>
                                         </div>
                                         <p>Interactive Baseball game-both multiplayer<br> and single payer options</p>
                                     </div>
                                     <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <img class="why_icn img-responsive" src="">
+                                        <img class="why_icn img-responsive" src="/images/basketball.jpg"
+                                            style="border-radius:10px;">
                                         <div class="special-heading textaligncenter default">
                                             <h5>Basketball Game</h5>
                                         </div>
-                                        <p>Interactive Hockey games-multiplayer<br> and single payer options</p>
+                                        <p>Interactive Basketball games-multiplayer<br> and single payer options</p>
                                     </div>
                                     <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <img class="why_icn img-responsive" src="">
+                                        <img id="bounceup" class="why_icn img-responsive" src="/images/ball.jpg" style="height:50%; width:50%;">
                                         <div class="special-heading textaligncenter default">
                                             <h5>Football Game</h5>
                                         </div>
                                         <p>Interactive Foootball Games-multiplayer<br> and single payer options</p>
                                     </div>
                                     <div class="col-md-3 col-sm-6 col-xs-12">
-                                        <img class="why_icn img-responsive" src="">
+                                        <img id="bounceup" class="why_icn img-responsive" src="/images/hockey_01.jpg" style="border-radius:10px;">
                                         <div class="special-heading textaligncenter default">
                                             <h5>Hockey Game</h5>
                                         </div>
@@ -208,58 +247,18 @@
                     </div>
 
                 </div>
-                </div>
-                </section>
-
-
-                </div>
-                </div>
-
-                </div>
-
         </div>
+        </section>
+
+
     </div>
-    <section class="main-content bottom-callout no-padding shadow-off">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+    </div>
 
-                    <div class="row learn_more">
-                        <div class="col-md-12">
+    </div>
 
-                            <div class="special-heading textalignright default blue_heading header_title" style="padding-bottom: 0px; float: left;">
-                                <h2 class="fancy default"><span>
-
-                                        <h2>Learn More</h2>
-                                        <hr>
-                                    </span>
-                                </h2>
-
-                                <a href="/learn/"><button type="button" class="btn btn-primary call_to_action "
-                                        style="float: left;">Learn
-                                        More
-                                    </button></a>
-                            </div>
-                            <div class="special-heading textalignleft default blue_heading header_title" style="padding-bottom: 0px; float: right;">
-                                <h2 class="fancy default"><span>
-
-                                        <h2>Contact Us</h2>
-                                        <hr>
-                                    </span>
-                                </h2>
-
-                                <a href="/contact"><button type="button" class="btn btn-primary call_to_action"
-                                        style="float: right;">Contact
-                                        Us
-                                    </button></a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
+    </div>
+    {{> bottom_section}}
     </main>
     <!-- /.main -->
     </div>
@@ -268,7 +267,15 @@
     <!-- /.wrap -->
     {{> footer}}
 
+    <script>
+        let balls = $('#bounceup');
+        balls.mouseover('animate', event, function (event) {
+            event.preventDefault();
 
+            balls.addClass('.Animated bounceIn');
+
+        })
+    </script>
 
     <!--replace with a cdn for faster page-load-->
     <script type='text/javascript' src='/js/script.min.js'></script>
