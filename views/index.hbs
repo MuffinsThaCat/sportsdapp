@@ -31,6 +31,24 @@
             }
         }
 
+        @media only screen and (min-width: 0px) and (max-width: 498px) {
+            .owl-carousel .item .textoverlay img {
+                width: 100%;
+                height: auto;
+                
+            }
+
+            
+        }
+
+        .owl-carousel div h2, .owl-carousel div .textoverlay img {
+                position:absolute;
+                color: #fff;
+                font-size:12px;
+                display:block;
+                
+            }
+
         .print {
             fill: #346aa9;
             height: 32px;
@@ -55,7 +73,7 @@
             width: 64px;
         }
     </style>
- 
+
 
 
 </head>
@@ -195,38 +213,35 @@
                                                 <div class="container">
                                                     <div class="row">
                                                         <div class="col-md-12">
+                                                            <div id="owl-slider" class="owl-carousel owl-theme">
 
-                                                           
+                                                                <div><div class="textoverlay">
+                                                                    <img src="/images/MISSION.jpg"
+                                                                        alt="mission">
+                                                                </div></div>
 
-
-                                                                <div class="owl-carousel owl-theme">
-
-                                                                    <div class="item"><img src="/images/MISSION.jpg"
-                                                                            alt="mission"
-                                                                            ></div>
-
-                                                                    <div class="item"><img
-                                                                            src="/images/Startup-Concept.jpg"
-                                                                            alt="startup-concept"
-                                                                            ></div>
-                                                                    <div class="item"><img src="/images/STORE.jpg"
-                                                                            alt="store" >
-                                                                    </div>
-                                                                    <div class="item"><img
-                                                                            src="/images/Team-Working.jpg"
-                                                                            alt="teamworking"
-                                                                            ></div>
-                                                                    <div class="item"><img
-                                                                            src="/images/SOCIAL-MEDIA.jpg"
-                                                                            alt="social-media"
-                                                                            ></div>
+                                                                <div class="textoverlay">
+                                                                   </h2><img src="/images/Startup-Concept.jpg"
+                                                                        alt="startup-concept">
+                                                                </div>
+                                                                <div class="item">
+                                                                    <img src="/images/STORE.jpg" alt="store">
+                                                                </div>
+                                                                <div class="item">
+                                                                    <img src="/images/Team-Working.jpg"
+                                                                        alt="teamworking">
+                                                                </div>
+                                                                <div class="textoverlay">
+                                                                    <img src="/images/SOCIAL-MEDIA.jpg"
+                                                                        alt="social-media">
+                                                                </div>
 
                                                             </div>
                                                         </div>
                                                     </div>
                                             </section>
 
-                                            <div class="row impact">
+                                            <div class="row impact" style="margin-left:200px;">
                                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                                     <img class="why_icn img-responsive" src="">
                                                     <div class="special-heading textaligncenter default">
@@ -377,7 +392,8 @@
                                                     <div class="row">
                                                         <div class="col-md-3 col-sm-6 col-md-12">
                                                             <img class="why_icn img-responsive"
-                                                                src="/images/smart01.jpg" style="border-radius:10px; padding-bottom:30px;" >
+                                                                src="/images/smart01.jpg"
+                                                                style="border-radius:10px; padding-bottom:30px;">
                                                             <div class="special-heading textaligncenter default">
                                                                 <h3>Smart Stadiums (continued)</h3>
                                                             </div>
@@ -407,7 +423,55 @@
                     </div>
                 </section>
         </div>
-        {{> bottom_section}}
+        <section class="main-content bottom-callout no-padding shadow-off" style="float: center;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="row learn_more">
+                    <div class="col-md-12">
+                        <div class="contact_btn">
+                            <div class="centered">
+                                <div class="special-heading textalignright default blue_heading header_title"
+                                    style="padding-bottom: 0px; float: left;">
+                                    <h2 class="fancy default"><span>
+
+                                            <h2>Learn More</h2>
+                                            <hr>
+                                        </span>
+                                    </h2>
+
+                                    <a href="/learn/"><button type="button" class="btn btn-primary call_to_action "
+                                            style="float: left;">Learn
+                                            More
+                                        </button></a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact_btn">
+                                <div class="special-heading textalignleft default blue_heading header_title "
+                                    style="padding-bottom: 10px; float: right;">
+                                    <h2 class="fancy default"><span>
+
+                                            <h2>Contact Us</h2>
+                                            <hr>
+                                        </span>
+                                    </h2>
+
+                                    <a href="/contact"><button type="button" class="btn btn-primary call_to_action"
+                                            style="float: right; ">Contact
+                                            Us
+                                        </button></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         <section class="main-content problem-section no-padding shadow-off">
             <div class="container">
                 <div class="row">

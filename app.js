@@ -70,7 +70,7 @@ app.use('/company', companyRouter);
 app.use('/digital-id', digitalIdRouter);
 app.use('/fan-engagement', fanEngagementRouter);
 app.use('/frictionless-payments', fricitionlessPaymentRouter);
-app.use('/games', gamesRouter);
+app.use('/gamers', gamesRouter);
 app.use('/insights', insightsRouter);
 app.use('/join-the-team', joinRouter);
 app.use('/interorganization-data-management', interOrganizationRouter);

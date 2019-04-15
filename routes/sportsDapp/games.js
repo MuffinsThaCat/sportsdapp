@@ -4,7 +4,7 @@ const router = express.Router();
 
 /* GET Games Page page. */
 router.get('/', function(req, res, next) {
-    res.render('games.hbs', {
+    res.render('gamers.hbs', {
         layout: false
     });
 });
