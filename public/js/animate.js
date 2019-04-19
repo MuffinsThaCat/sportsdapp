@@ -1,17 +1,26 @@
 $(document).ready(function() {
 
-    $(".owl-carousel").owlCarousel({
+    // veneobox API
+    $('.venobox').venobox();
 
-        autoplay: 3000, //Set AutoPlay to 2 seconds
-        loop: true,
-        nav: true,
-        autoplaySpeed: 5000,
-        autoPlayHoverPause: true,
-
-        items: 2,
-        itemsDesktop: [1199, 3],
-        itemsDesktopSmall: [979, 3]
-
-    });
 
 });
+
+(function(){
+      
+        // responsive navbar fix :p
+        $(document).ready(function () {
+
+            var offset = 200;
+
+            $(window).scroll(function () {
+                if ($(this).scrollTo() > offset) {
+                    $('header').addClass('.scrolled');
+                } else {
+                    $('.header').removeClass(' scrolled');
+                }
+            });
+        });
+    
+
+}())

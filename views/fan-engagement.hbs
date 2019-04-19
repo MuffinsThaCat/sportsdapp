@@ -28,23 +28,27 @@
             }
         }
 
-        @media only screen and (min-width: 0px) and (max-width: 698px) {
-            .owl-carousel .item .textoverlay img {
-                width: 100%;
-                height: auto;
 
-            }
 
 
         }
 
-        .owl-carousel div h2,
-        .owl-carousel div .textoverlay img {
-            position: absolute;
-            color: #fff;
-            font-size: 12px;
-            display: block;
+        .backtotop {
+            background: none;
+            margin: 0;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 55px;
+            height: 60px;
+            z-index: 100;
+            display: none;
+            text-decoration: none;
+            color: #808080;
+        }
 
+        .backtotop i {
+            font-size: 50px;
         }
 
         .print {
@@ -98,8 +102,7 @@
         </div>
     </div>
     <div class="hero-container">
-        <div class="hero" style="background-position: center; background-image: url(/images/hero2.jpg);">
-        </div>
+        <div class="hero" style="background-position: center; background-image: url(/images/hero2.jpg);"></div>
     </div>
     <div class="wrap" role="document">
         <div class="content">
@@ -127,162 +130,129 @@
                             </div>
                 </section>
                 <hr>
-                <section class="main-content  no-padding shadow-off">
+
+                <section class="main-content">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <h1 style="color:#346aa9;">Benefits</h1>
 
-
-                                        <div id="owl-slider" class="owl-carousel owl-theme">
-
-                                            <div>
-                                                <div class="item">
-                                                    <h2 style="margin:0 auto;">Unlimited Interactive<br>
-                                                    games</h2>
-                                                    <img src="/images/gamers.jpeg" alt="mission">
-                                                </div>
-                                            </div>
-
-                                            <div class="item">
-                                                <h2 style="textalign:center;">Access Smart Tickets on<br> Blockchain</h2>
-                                                <img src="/images/Ticketing.jpg" alt="startup-concept">
-                                            </div>
-                                            
-                                            <div class="item">
-                                                <h2 style="textalign:center; color:#346aa9;">Our Team is always standby<br></h2>
-                                                <img src="/images/Team-Working.jpg" alt="teamworking">
-                                            </div>
-                                            <div class="item">
-                                                <h2 style="textalign:center;">Earn Rewards from our Loyalty <br> Reward Program </h2>
-                                                <img src="/images/STORE.jpg" alt="store">
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                </div>
-                </section>
-
-                <hr>
-                <div>
-                    <section class="main-content">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-
-                                    <div class="special-heading textaligncenter default blue_heading header_title"
-                                        style="padding-bottom: 30px; ">
-                                        <h2 class="fancy default"><span>
-                                                <h2>Opportunities</h2>
-                                                <hr>
-                                            </span>
-                                        </h2>
-                                    </div>
-
-                                    <div class="row impact" style="margin-left:100px;">
-                                        <div class="col-md-3 col-sm-6 col-xs-12" style="margin-left:15px;">
-                                            <img class="why_icn img-responsive" src="/images/Sensors-for-IoT.jpg"
-                                                style="border-radius:50px; ">
-                                            <div class="special-heading textaligncenter default">
-                                                <h5>IOT</h5>
-                                            </div>
-                                            <p>IoT includes sensors and small<br>
-                                                embedded computers<br> with the ability to connect
-                                                to<br>
-                                                the internet.
-                                            </p>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6 col-xs-12" style="margin-left:15px">
-                                            <img class="why_icn img-responsive" src="/images/Realtime.png"
-                                                style="border-radius:5px;padding-bottom:45px;">
-                                            <div class="special-heading textaligncenter default">
-                                                <h5>Real Time Data</h5>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-md-3 col-sm-6 col-xs-12" style="margin-left:15px">
-                                            <img class="why_icn img-responsive" src="/images/Actv.png"
-                                                style="border-radius:50px; padding-bottom:24px;;">
-                                            <div class="special-heading textaligncenter default">
-                                                <h5>New Activation For Fans</h5>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                    </section>
-                </div>
-
-
-                <hr>
-                <section class="main-content bottom-callout no-padding shadow-off" style="float: center;">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="blank_divider" style="height: 20px;"></div>
-                                <div class="blank_divider" style="height: 20px;"></div>
                                 <div class="special-heading textaligncenter default blue_heading header_title"
-                                    style="padding-bottom: 30px;">
-                                    <h2>Learn More</h2>
+                                    style="padding-bottom: 30px; ">
+                                    <h2 class="fancy default"><span>
+                                            <h2>Opportunities</h2>
+                                            <hr>
+                                        </span>
+                                    </h2>
+                                </div>
+
+                                <div class="row impact" style="">
+                                    <div class="col-md-3 col-sm-6 col-xs-12" style="margin-left:15px;">
+                                        <img class="why_icn img-responsive" src="/images/Sensors-for-IoT.jpg"
+                                            style="border-radius:50px; ">
+                                        <div class="special-heading textaligncenter default">
+                                            <h5>IOT</h5>
+                                        </div>
+                                        <p>IoT includes sensors and small<br>
+                                            embedded computers<br> with the ability to connect
+                                            to<br>
+                                            the internet.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-12" style="margin-left:15px">
+                                        <img class="why_icn img-responsive" src="/images/Realtime.png"
+                                            style="border-radius:5px;padding-bottom:45px;">
+                                        <div class="special-heading textaligncenter default">
+                                            <h5>Real Time Data</h5>
+                                        </div>
+                                        <p>Data created is immediately <br>made available to<br> users in the systems,
+                                            <br>e.g
+                                            real time content</p>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 col-xs-12" style="margin-left:15px">
+                                        <img class="why_icn img-responsive" src="/images/Actv.png"
+                                            style="border-radius:50px; padding-bottom:24px;;">
+                                        <div class="special-heading textaligncenter default">
+                                            <h5>New Activation For Fans</h5>
+                                        </div>
+                                        <p>Fans are now activated upon registration<br>upon provisioning of data</p>
+
+                                    </div>
 
                                 </div>
 
-                                <div class="row learn_more">
-                                    <div class="col-md-12">
-                                        <div class="contact_btn">
-                                            <div class="centered">
-                                                <div class="special-heading textalignright default blue_heading header_title"
-                                                    style="padding-bottom: 0px; float: left;">
-                                                    <h2 class="fancy default"><span>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        </section>
 
-                                                            <h2>White Paper</h2>
-                                                            <hr>
-                                                        </span>
-                                                    </h2>
 
-                                                    <a href="/learn/"><button type="button"
-                                                            class="btn btn-primary call_to_action "
-                                                            style="float: left;">Learn
-                                                            More
-                                                        </button></a>
-                                                </div>
-                                            </div>
-                                            <div class="contact_btn">
-                                                <div class="special-heading textalignleft default blue_heading header_title "
-                                                    style="padding-bottom: 10px; float: right;">
-                                                    <h2 class="fancy default"><span>
 
-                                                            <h2>Contact Us</h2>
-                                                            <hr>
-                                                        </span>
-                                                    </h2>
+        <hr>
+        <section class="main-content bottom-callout no-padding shadow-off" style="float: center;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="blank_divider" style="height: 20px;"></div>
+                        <div class="blank_divider" style="height: 20px;"></div>
+                        <div class="special-heading textaligncenter default blue_heading header_title"
+                            style="padding-bottom: 30px;">
+                            <h2>Learn More</h2>
 
-                                                    <a href="/contact"><button type="button"
-                                                            class="btn btn-primary call_to_action"
-                                                            style="float: right; ">Contact
-                                                            Us
-                                                        </button></a>
-                                                </div>
-                                            </div>
+                        </div>
 
+                        <div class="row learn_more">
+                            <div class="col-md-12">
+                                <div class="contact_btn">
+                                    <div class="centered">
+                                        <div class="special-heading textalignright default blue_heading header_title"
+                                            style="padding-bottom: 0px; float: left;">
+                                            <h2 class="fancy default"><span>
+
+                                                    <h2>White Paper</h2>
+                                                    <hr>
+                                                </span>
+                                            </h2>
+
+                                            <a href="/learn/"><button type="button"
+                                                    class="btn btn-primary call_to_action " style="float: left;">Learn
+                                                    More
+                                                </button></a>
                                         </div>
                                     </div>
+                                    <div class="contact_btn">
+                                        <div class="special-heading textalignleft default blue_heading header_title "
+                                            style="padding-bottom: 10px; float: right;">
+                                            <h2 class="fancy default"><span>
+
+                                                    <h2>Contact Us</h2>
+                                                    <hr>
+                                                </span>
+                                            </h2>
+
+                                            <a href="/contact"><button type="button"
+                                                    class="btn btn-primary call_to_action"
+                                                    style="float: right; ">Contact
+                                                    Us
+                                                </button></a>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
-            </main>
-            <!-- /.main -->
-        </div>
-        <!-- /.content -->
+                </div>
+            </div>
+
+        </section>
+        </main>
+        <!-- /.main -->
     </div>
+    <!-- /.content -->
+    </div>
+    </div>
+
     <!-- /.wrap -->
     {{> footer}}
     {{> cookie-bar}}
@@ -304,11 +274,48 @@
     <script type='text/javascript' src='/js/vendor/player.js' async='async'></script>
     <script type='text/javascript'>
     </script>
-    <script type='text/javascript' src='/js/scripts.js?ver=5.0.3'></script>
 
+    <script>
+$(document).ready(function() {
+                                                                                           $('.backtotop').css({ 'display': 'none' });
+                                                                                       var offset = 200;
+                                                                                       var duration = 600;
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > offset) {
+                                                                                           $('.backtotop').fadeIn(duration);
+                                                                                       } else {
+                                                                                           $('.backtotop').fadeOut(duration);
+                                                                                       }
+                                                                                   });
 
-</body>
+    $('.backtotop').click(function(event) {
+                                                                                           event.preventDefault();
+                                                                                       $('html, body').animate({scrollTop: 0}, duration);
+                                                                                       return false;
+                                                                                   })
+                                                                               });
+    </script>
+
+    <script>
+$(document).ready(function() {
+                                                                                           $('.backtotop').css({ 'display': 'none' });
+                                                                                       var offset = 200;
+                                                                                       var duration = 600;
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > offset) {
+                                                                                           $('.backtotop').fadeIn(duration);
+                                                                                       } else {
+                                                                                           $('.backtotop').fadeOut(duration);
+                                                                                       }
+                                                                                   });
+
+    $('.backtotop').click(function(event) {
+                                                                                           event.preventDefault();
+                                                                                       $('html, body').animate({scrollTop: 0}, duration);
+                                                                                       return false;
+                                                                                   })
+                                                                               });
+    </script>
 </body>
 
 </html>
-<div
