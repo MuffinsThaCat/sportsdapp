@@ -10,9 +10,10 @@ var http = require('http');
 
 /**
  * Get port from environment and store in Express.
+ * allow heroku/nodejitsu set port
  */
 
-var port = normalizePort(process.env.PORT || '3800');
+var port = process.env.PORT || '3800';
 app.set('port', port);
 
 /**
