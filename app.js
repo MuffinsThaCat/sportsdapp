@@ -1,9 +1,16 @@
+'use strict';
+// dependencies an modules
 const createError = require('http-errors');
 const express = require('express');
 const ehbs = require('express-handlebars');
 const path = require('path');
+const helmet = require('helmet');
+const mongoose = require('mongoose').Schema;
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+const db = require('./routes/resources/models/db');
+
+
 
 // site-wide routes
 const indexRouter = require('./routes/index');
@@ -36,7 +43,7 @@ const app = express();
 app.disable('x-powered-by');
 
 app.engine('.hbs', ehbs({
-    extname: '.hbs'
+    extname: '.hbs',
 }));
 
 
@@ -44,24 +51,24 @@ app.set('view engine', '.hbs');
 app.set('views', path.join(__dirname, 'views'));
 app.set('partials', path.join(__dirname, 'views/partials'));
 
+app.use(helmet());
 app.use(logger('dev'));
-// app.use(cors());
+
 // enable cross site origin
 app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     next();
 });
 app.use(express.json());
 app.use(express.urlencoded({
-    extended: false
+    extended: false,
 }));
-
 
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// register routes 
+// register routes
 app.use('/', indexRouter);
 app.use('/advisors', advisorsRouter);
 app.use('/blockchain-and-iot', blockchainAndIotRouter);
@@ -82,10 +89,54 @@ app.use('/road-map', roadmapRouter);
 app.use('/smart-ticketing', smartTicketing);
 app.use('/overview', overview);
 
+// let,s connect to mongodb
+const opts = {
+    server: {
+        socketOptions: {
+            keepAlive: 1
+        }
 
+    }
+};
 
+const BlogPostSchema = new Schema({
+    title: { type: String, required: true, trim: true },
+    slug: { type: String, required: true, lowercase: true, trim: true, index: { unique: true } },
+    body: { type: String, required: true },
+    teaser: { type: String, required: true },
+    author: { type: String, required: true, trim: true },
+    published: { type: Boolean, required: true, default: false },
+    createdAt: { type: Number },
+    updatedAt: { type: Number }
+}, {
+    // collection
+    collection: 'feeds',
+});
 
+// update timestamps on save
+BlogPostSchema.pre('save', function(next) {
+    this.updatedAt = Date.now();
+    if (this.isNew) this.createdAt = this.updatedAt;
 
+});
+
+switch (app.get('env')) {
+    case 'development':
+        mongoose.connect(db.development.string,
+            opts.server.scocketOPtions,
+            opts.useNewUrlParser);
+
+        break;
+    case 'production':
+        mongoose.connect(db.production.string,
+            opts.server.scocketOPtions,
+            opts.useNewUrlParser);
+
+        break;
+    default:
+        throw new Error('unknown execution environment' + app.get('env'));
+
+}
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
     next(createError(404));
@@ -100,7 +151,7 @@ app.use(function(err, req, res, next) {
     // render the error page
     res.status(err.status || 500);
     res.render('error', {
-        layout: false
+        layout: false,
     });
 });
 
