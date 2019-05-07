@@ -5,7 +5,7 @@ const express = require('express');
 const ehbs = require('express-handlebars');
 const path = require('path');
 const helmet = require('helmet');
-const mongoose = require('mongoose').Schema;
+const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const db = require('./routes/resources/models/db');
@@ -99,42 +99,22 @@ const opts = {
     }
 };
 
-const BlogPostSchema = new Schema({
-    title: { type: String, required: true, trim: true },
-    slug: { type: String, required: true, lowercase: true, trim: true, index: { unique: true } },
-    body: { type: String, required: true },
-    teaser: { type: String, required: true },
-    author: { type: String, required: true, trim: true },
-    published: { type: Boolean, required: true, default: false },
-    createdAt: { type: Number },
-    updatedAt: { type: Number }
-}, {
-    // collection
-    collection: 'feeds',
-});
-
-// update timestamps on save
-BlogPostSchema.pre('save', function(next) {
-    this.updatedAt = Date.now();
-    if (this.isNew) this.createdAt = this.updatedAt;
-
-});
 
 switch (app.get('env')) {
-    case 'development':
-        mongoose.connect(db.development.string,
-            opts.server.scocketOPtions,
-            opts.useNewUrlParser);
+case 'development':
+    mongoose.connect(db.development.string,
+        opts.server.scocketOPtions,
+        opts.useNewUrlParser);
 
-        break;
-    case 'production':
-        mongoose.connect(db.production.string,
-            opts.server.scocketOPtions,
-            opts.useNewUrlParser);
+    break;
+case 'production':
+    mongoose.connect(db.production.string,
+        opts.server.scocketOPtions,
+        opts.useNewUrlParser);
 
-        break;
-    default:
-        throw new Error('unknown execution environment' + app.get('env'));
+    break;
+default:
+    throw new Error('unknown execution environment' + app.get('env'));
 
 }
 // catch 404 and forward to error handler
