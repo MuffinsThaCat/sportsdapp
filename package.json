@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "start": "pm2 start ./bin/www"
+        "start": "node start ./bin/www"
     },
     "dependencies": {
         "cookie-parser": "~1.4.3",
@@ -37,7 +37,7 @@
         "htmlhint": "^0.11.0"
     },
     "engines": {
-        "node": "8.14.0",
-        "npm": "6.9.0"
+        "node": "8.16.0",
+        "npm": "6.4.1"
     }
 }
