@@ -1,0 +1,24 @@
+{
+	"editor.foldingStrategy": "indentation",
+	"vsicons.presets.jsonOfficial": true,
+	"vsicons.presets.jsOfficial": true,
+	"vsicons.presets.foldersAllDefaultIcon": true,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact"
+	],
+	"eslint.workingDirectories": ["/home/slax/dapstat/"],
+	"eslint.autoFixOnSave": true,
+	"eslint.provideLintTask": true,
+	"eslint.run": "onSave",
+	"html.format.indentHandlebars": true,
+	"eslint.alwaysShowStatus": true,
+	"emmet.showSuggestionsAsSnippets": true,
+	"htmlhint.documentSelector": [
+		"html",
+		"htm",
+		"hbs"
+	],
+	
+	
+}

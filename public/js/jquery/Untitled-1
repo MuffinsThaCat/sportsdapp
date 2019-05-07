@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fan Engagement|The New Global Standard for Fan Engagement|Benefits</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/images/favicon.jpg">
+    <link rel="stylesheet" id="ripple_css-css" href="/css/main.css" type="text/css" media="all" />
+    <style>
+        @media only screen and (min-width: 0px) and (max-width: 498px) {
+            .contact_btn {
+                float: left;
+                padding-left: 40px;
+            }
+
+            .learn_btn {
+                float: left;
+                padding-left: 35px;
+            }
+
+        }
+    </style>
+
+    </script>
+</head>
+
+<body
+    class="page-template page-template-template-full-width page-template-template-full-width-php page page-id-14808 page-child parent-pageid-14807 page-banks">
+
+    {{> navbar}}
+    <div class="wrap container cta_text">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header_text_wrapper container">
+                    <h2 class="leading_header_text animated fadeInUp"></h2>
+                    <h1 class="header_text animated fadeInUp">The New Global Standard for Fan Engagement</h1>
+                    <nobr>
+                        <a href="/contact"><button type="button"
+                                class="btn btn-primary careers_cta call_to_action animated3 fadeInUp"
+                                style="padding-bottom:10px;">Connect With Your
+                                Fans</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-container">
+        <div class="hero" style="background-position: center; background-image: url(/images/hero2.jpg);"></div>
+    </div>
+    <div class="wrap" role="document">
+        <div class="content">
+
+            <main class="main_content jumbotron" role="main">
+                <div class="page-header">
+                    <h1>
+                        Fan Engagement </h1>
+                </div>
+
+                <section class="main-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="blank_divider" style="height: 20px;"></div>
+                                <div class="blank_divider" style="height: 20px;"></div>
+                                <div class="special-heading textaligncenter default blue_heading header_title"
+                                    style="padding-bottom: 30px;">
+                                    <h2>More Fans, <br>Superior Interactions</h2>
+                                </div>
+
+                            </div>
+
+
+                            <div class="special-heading textaligncenter default blue_heading header_title"
+                                style="padding-bottom: 30px; ">
+                                <h2 class="fancy default"><span>
+                                        <h2>Opportunities</h2>
+                                        <hr>
+                                    </span>
+                                </h2>
+
+                            </div>
+
+                            <div class="row impact" style="">
+                                <div class="col-md-3 col-sm-6 col-xs-12" style="margin-left:15px;">
+                                    <img class="why_icn img-responsive" src="/images/Sensors-for-IoT.jpg"
+                                        style="border-radius:50px; ">
+                                    <div class="special-heading textaligncenter default">
+                                        <h5>IOT</h5>
+                                    </div>
+                                    <p>IoT includes sensors and small<br>
+                                        embedded computers<br> with the ability to connect
+                                        to<br>
+                                        the internet.
+                                    </p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12" style="margin-left:15px">
+                                    <img class="why_icn img-responsive" src="/images/Realtime.png"
+                                        style="border-radius:5px;padding-bottom:45px;">
+                                    <div class="special-heading textaligncenter default">
+                                        <h5>Real Time Data</h5>
+                                    </div>
+                                    <p>Data created is immediately <br>made available to<br> users in the
+                                        systems,
+                                        <br>e.g
+                                        real time content</p>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12" style="margin-left:15px">
+                                    <img class="why_icn img-responsive" src="/images/Actv.png"
+                                        style="border-radius:50px; padding-bottom:24px;;">
+                                    <div class="special-heading textaligncenter default">
+                                        <h5>New Activation For Fans</h5>
+                                    </div>
+                                    <p>Fans are now activated upon registration<br>and upon provisioning of
+                                        data</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+        </div>
+
+        </section>
+        {{> bottom_section}}
+        </main>
+        <!-- /.main -->
+    </div>
+    <!-- /.content -->
+    </div>
+
+    <!-- /.wrap -->
+    {{> footer}}
+
+    <!--to be replaced with a cdn for faster page-load-->
+
+    <script type="text/javascript" src="/js/jquery/jquery.min.js"></script>
+    <script type='text/javascript' src='/js/scripts.min.js'></script>
+    <script type='text/javascript' defer="defer " src='/js/countUp.js'></script>
+
+</body>
+
+</html>
