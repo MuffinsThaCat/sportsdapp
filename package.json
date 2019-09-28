@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "start": "node start server.js"
+        "start": "node server.js"
     },
     "dependencies": {
         "cookie-parser": "1.4.4",
@@ -24,7 +24,7 @@
     "main": "server.js",
     "repository": {
         "type": "git",
-        "url": "none"
+        "url": ""
     },
     "keywords": [
         "sportsdapp"
