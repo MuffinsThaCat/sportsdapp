@@ -16,7 +16,7 @@
         "helmet": "3.21.1",
         "http-errors": "1.6.3",
         "mongodb": "3.3.2",
-        "mongoose": "5.7.1",
+        "mongoose": "5.7.5",
         "morgan": "1.9.1",
         "rss-node-mongo": "1.0.3",
         "rss-parser": "3.7.0"
